@@ -1,0 +1,16 @@
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <path d="M0 0L40 0L40 40L0 40L0 0Z" id="path_1" />
+        <clipPath id="clip_1">
+            <use xlink:href="#path_1" />
+        </clipPath>
+    </defs>
+    <g id="Frame" clip-path="url(#clip_1)">
+        <path d="M7.47473 7.71306L32.5055 32.7437" id="Line" fill="none" fill-rule="evenodd"
+            stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M31.8885 7.96936L6.85791 33" id="Line-Copy" fill="none" fill-rule="evenodd"
+            stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+</svg>
