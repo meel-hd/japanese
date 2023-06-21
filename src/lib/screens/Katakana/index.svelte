@@ -98,7 +98,8 @@
     gap: 20px;
   }
 
-  #controls button {
+  #controls button,
+  #details button {
     width: 50px;
     height: 50px;
     border-radius: 999px;

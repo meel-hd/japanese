@@ -74,7 +74,6 @@
   #select-box {
     width: 180px;
     border-radius: 20px;
-    margin-left: 20px;
     box-shadow: 3px 4px 3px 3px #00000010;
     padding: 5px;
   }
