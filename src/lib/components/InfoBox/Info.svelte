@@ -47,10 +47,10 @@
         <div id="app-info">
           <img id="app-logo" src="/app-icon.png" alt="" />
           <div>
-            <h1>Lofi Engine</h1>
+            <h1>Japanese</h1>
             <p id="version">Version 0.0.2</p>
             <p id="tagline">
-              Create your own atmosphere, Lofi Engine sets the mood.
+              Create your own atmosphere, Japanese sets the mood.
             </p>
             <SocialLinks />
           </div>

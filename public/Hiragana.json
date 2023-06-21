@@ -1,0 +1,554 @@
+[
+  {
+    "letter": "あ",
+    "en": "A",
+    "ar": "أ",
+    "phonetic": "/a/",
+    "example": {
+      "jp": "ありがとう",
+      "pronunciation": "Arigato",
+      "en": "Thank you",
+      "ar": "شكراً"
+    }
+  },
+  {
+    "letter": "い",
+    "en": "I",
+    "ar": "إ",
+    "phonetic": "/i/",
+    "example": {
+      "jp": "いちご",
+      "pronunciation": "Ichigo",
+      "en": "Strawberry",
+      "ar": "فراولة"
+    }
+  },
+  {
+    "letter": "う",
+    "en": "U",
+    "ar": "أو",
+    "phonetic": "/u/",
+    "example": {
+      "jp": "うさぎ",
+      "pronunciation": "Usagi",
+      "en": "Rabbit",
+      "ar": "أرنب"
+    }
+  },
+  {
+    "letter": "え",
+    "en": "E",
+    "ar": "إي",
+    "phonetic": "/e/",
+    "example": {
+      "jp": "えんぴつ",
+      "pronunciation": "Enpitsu",
+      "en": "Pencil",
+      "ar": "قلم رصاص"
+    }
+  },
+  {
+    "letter": "お",
+    "en": "O",
+    "ar": "أو",
+    "phonetic": "/o/",
+    "example": {
+      "jp": "おはよう",
+      "pronunciation": "Ohayou",
+      "en": "Good morning",
+      "ar": "صباح الخير"
+    }
+  },
+  {
+    "letter": "か",
+    "en": "Ka",
+    "ar": "كا",
+    "phonetic": "/ka/",
+    "example": {
+      "jp": "かばん",
+      "pronunciation": "Kaban",
+      "en": "Bag",
+      "ar": "حقيبة"
+    }
+  },
+  {
+    "letter": "き",
+    "en": "Ci",
+    "ar": "كي",
+    "phonetic": "/ki/",
+    "example": {
+      "jp": "きつね",
+      "pronunciation": "Kitsune",
+      "en": "Fox",
+      "ar": "ثعلب"
+    }
+  },
+  {
+    "letter": "く",
+    "en": "Ku",
+    "ar": "كو",
+    "phonetic": "/ku/",
+    "example": {
+      "jp": "くつした",
+      "pronunciation": "Kutsushita",
+      "en": "Socks",
+      "ar": "جوارب"
+    }
+  },
+  {
+    "letter": "け",
+    "en": "Ke",
+    "ar": "كي",
+    "phonetic": "/ke/",
+    "example": {
+      "jp": "けん",
+      "pronunciation": "Ken",
+      "en": "Sword",
+      "ar": "سيف"
+    }
+  },
+  {
+    "letter": "こ",
+    "en": "Ko",
+    "ar": "كو",
+    "phonetic": "/ko/",
+    "example": {
+      "jp": "こども",
+      "pronunciation": "Kodomo",
+      "en": "Child",
+      "ar": "طفل"
+    }
+  },
+  {
+    "letter": "さ",
+    "en": "Sa",
+    "ar": "سا",
+    "phonetic": "/sa/",
+    "example": {
+      "jp": "さかな",
+      "pronunciation": "Sakana",
+      "en": "Fish",
+      "ar": "سمك"
+    }
+  },
+  {
+    "letter": "し",
+    "en": "Shi",
+    "ar": "شي",
+    "phonetic": "/shi/",
+    "example": {
+      "jp": "しんぶん",
+      "pronunciation": "Shinbun",
+      "en": "Newspaper",
+      "ar": "جريدة"
+    }
+  },
+  {
+    "letter": "す",
+    "en": "Su",
+    "ar": "سو",
+    "phonetic": "/su/",
+    "example": {
+      "jp": "すし",
+      "pronunciation": "Sushi",
+      "en": "Sushi",
+      "ar": "سوشي"
+    }
+  },
+  {
+    "letter": "せ",
+    "en": "Se",
+    "ar": "سي",
+    "phonetic": "/se/",
+    "example": {
+      "jp": "せんたく",
+      "pronunciation": "Sentaku",
+      "en": "Laundry",
+      "ar": "غسيل الملابس"
+    }
+  },
+  {
+    "letter": "そ",
+    "en": "So",
+    "ar": "سو",
+    "phonetic": "/so/",
+    "example": {
+      "jp": "そら",
+      "pronunciation": "Sora",
+      "en": "Sky",
+      "ar": "السماء"
+    }
+  },
+  {
+    "letter": "た",
+    "en": "Ta",
+    "ar": "تا",
+    "phonetic": "/ta/",
+    "example": {
+      "jp": "たまご",
+      "pronunciation": "Tamago",
+      "en": "Egg",
+      "ar": "بيضة"
+    }
+  },
+  {
+    "letter": "ち",
+    "en": "Chi",
+    "ar": "تشي",
+    "phonetic": "/chi/",
+    "example": {
+      "jp": "ちいさな",
+      "pronunciation": "Chiisana",
+      "en": "Small",
+      "ar": "صغير"
+    }
+  },
+  {
+    "letter": "つ",
+    "en": "Tsu",
+    "ar": "تسو",
+    "phonetic": "/tsu/",
+    "example": {
+      "jp": "つくえ",
+      "pronunciation": "Tsukue",
+      "en": "Desk",
+      "ar": "مكتب"
+    }
+  },
+  {
+    "letter": "て",
+    "en": "Te",
+    "ar": "تي",
+    "phonetic": "/te/",
+    "example": {
+      "jp": "てがみ",
+      "pronunciation": "Tegami",
+      "en": "Letter",
+      "ar": "رسالة"
+    }
+  },
+  {
+    "letter": "と",
+    "en": "To",
+    "ar": "تو",
+    "phonetic": "/to/",
+    "example": {
+      "jp": "とけい",
+      "pronunciation": "Tokei",
+      "en": "Watch",
+      "ar": "ساعة يد"
+    }
+  },
+  {
+    "letter": "な",
+    "en": "Na",
+    "ar": "نا",
+    "phonetic": "/na/",
+    "example": {
+      "jp": "なつ",
+      "pronunciation": "Natsu",
+      "en": "Summer",
+      "ar": "الصيف"
+    }
+  },
+  {
+    "letter": "に",
+    "en": "Ni",
+    "ar": "ني",
+    "phonetic": "/ni/",
+    "example": {
+      "jp": "にんじん",
+      "pronunciation": "Ninjin",
+      "en": "Carrot",
+      "ar": "جزرة"
+    }
+  },
+  {
+    "letter": "ぬ",
+    "en": "Nu",
+    "ar": "نو",
+    "phonetic": "/nu/",
+    "example": {
+      "jp": "ぬいぐるみ",
+      "pronunciation": "Nuigurumi",
+      "en": "Stuffed animal",
+      "ar": "لعبة ناعمة"
+    }
+  },
+  {
+    "letter": "ね",
+    "en": "Ne",
+    "ar": "ني",
+    "phonetic": "/ne/",
+    "example": {
+      "jp": "ねこ",
+      "pronunciation": "Neko",
+      "en": "Cat",
+      "ar": "قطة"
+    }
+  },
+  {
+    "letter": "の",
+    "en": "No",
+    "ar": "نو",
+    "phonetic": "/no/",
+    "example": {
+      "jp": "のり",
+      "pronunciation": "Nori",
+      "en": "Seaweed",
+      "ar": "أعشاب بحرية"
+    }
+  },
+  {
+    "letter": "は",
+    "en": "Ha",
+    "ar": "ها",
+    "phonetic": "/ha/",
+    "example": {
+      "jp": "はな",
+      "pronunciation": "Hana",
+      "en": "Flower",
+      "ar": "زهرة"
+    }
+  },
+  {
+    "letter": "ひ",
+    "en": "Hi",
+    "ar": "هي",
+    "phonetic": "/hi/",
+    "example": {
+      "jp": "ひる",
+      "pronunciation": "Hiru",
+      "en": "Noon",
+      "ar": "الظهر"
+    }
+  },
+  {
+    "letter": "ふ",
+    "en": "Fu",
+    "ar": "فو",
+    "phonetic": "/fu/",
+    "example": {
+      "jp": "ふくろ",
+      "pronunciation": "Fukuro",
+      "en": "Bag",
+      "ar": "حقيبة"
+    }
+  },
+  {
+    "letter": "へ",
+    "en": "He",
+    "ar": "هي",
+    "phonetic": "/he/",
+    "example": {
+      "jp": "へや",
+      "pronunciation": "Heya",
+      "en": "Room",
+      "ar": "غرفة"
+    }
+  },
+  {
+    "letter": "ほ",
+    "en": "Ho",
+    "ar": "هو",
+    "phonetic": "/ho/",
+    "example": {
+      "jp": "ほん",
+      "pronunciation": "Hon",
+      "en": "Book",
+      "ar": "كتاب"
+    }
+  },
+  {
+    "letter": "ま",
+    "en": "Ma",
+    "ar": "ما",
+    "phonetic": "/ma/",
+    "example": {
+      "jp": "まど",
+      "pronunciation": "Mado",
+      "en": "Window",
+      "ar": "نافذة"
+    }
+  },
+  {
+    "letter": "み",
+    "en": "Mi",
+    "ar": "مي",
+    "phonetic": "/mi/",
+    "example": {
+      "jp": "みず",
+      "pronunciation": "Mizu",
+      "en": "Water",
+      "ar": "ماء"
+    }
+  },
+  {
+    "letter": "む",
+    "en": "Mu",
+    "ar": "مو",
+    "phonetic": "/mu/",
+    "example": {
+      "jp": "むぎ",
+      "pronunciation": "Mugi",
+      "en": "Wheat",
+      "ar": "قمح"
+    }
+  },
+  {
+    "letter": "め",
+    "en": "Me",
+    "ar": "مي",
+    "phonetic": "/me/",
+    "example": {
+      "jp": "めがね",
+      "pronunciation": "Megane",
+      "en": "Glasses",
+      "ar": "نظارات"
+    }
+  },
+  {
+    "letter": "も",
+    "en": "Mo",
+    "ar": "مو",
+    "phonetic": "/mo/",
+    "example": {
+      "jp": "もの",
+      "pronunciation": "Mono",
+      "en": "Thing",
+      "ar": "شيء"
+    }
+  },
+  {
+    "letter": "や",
+    "en": "Ya",
+    "ar": "يا",
+    "phonetic": "/ya/",
+    "example": {
+      "jp": "やま",
+      "pronunciation": "Yama",
+      "en": "Mountain",
+      "ar": "جبل"
+    }
+  },
+  {
+    "letter": "ゆ",
+    "en": "Yu",
+    "ar": "يو",
+    "phonetic": "/yu/",
+    "example": {
+      "jp": "ゆうがた",
+      "pronunciation": "Yūgata",
+      "en": "Evening",
+      "ar": "المساء"
+    }
+  },
+  {
+    "letter": "よ",
+    "en": "Yo",
+    "ar": "يو",
+    "phonetic": "/yo/",
+    "example": {
+      "jp": "よる",
+      "pronunciation": "Yoru",
+      "en": "Night",
+      "ar": "الليل"
+    }
+  },
+  {
+    "letter": "ら",
+    "en": "Ra",
+    "ar": "را",
+    "phonetic": "/ra/",
+    "example": {
+      "jp": "らくだ",
+      "pronunciation": "Rakuda",
+      "en": "Camel",
+      "ar": "جمل"
+    }
+  },
+  {
+    "letter": "り",
+    "en": "Ri",
+    "ar": "ري",
+    "phonetic": "/ri/",
+    "example": {
+      "jp": "りんご",
+      "pronunciation": "Ringo",
+      "en": "Apple",
+      "ar": "تفاحة"
+    }
+  },
+  {
+    "letter": "る",
+    "en": "Ru",
+    "ar": "رو",
+    "phonetic": "/ru/",
+    "example": {
+      "jp": "るすばん",
+      "pronunciation": "Rusuban",
+      "en": "House-sitting",
+      "ar": "رعاية المنزل"
+    }
+  },
+  {
+    "letter": "れ",
+    "en": "Re",
+    "ar": "ري",
+    "phonetic": "/re/",
+    "example": {
+      "jp": "れきし",
+      "pronunciation": "Rekishi",
+      "en": "History",
+      "ar": "تاريخ"
+    }
+  },
+  {
+    "letter": "ろ",
+    "en": "Ro",
+    "ar": "رو",
+    "phonetic": "/ro/",
+    "example": {
+      "jp": "ろうそく",
+      "pronunciation": "Rōsoku",
+      "en": "Candle",
+      "ar": "شمعة"
+    }
+  },
+  {
+    "letter": "わ",
+    "en": "Wa",
+    "ar": "وا",
+    "phonetic": "/wa/",
+    "example": {
+      "jp": "わたし",
+      "pronunciation": "Watashi",
+      "en": "I",
+      "ar": "أنا"
+    }
+  },
+  {
+    "letter": "を",
+    "en": "Wo",
+    "ar": "و",
+    "phonetic": "/wo/",
+    "example": {
+      "jp": "を",
+      "pronunciation": "Wo",
+      "en": "Object marker",
+      "ar": "علامة الغرض"
+    }
+  },
+  {
+    "letter": "ん",
+    "en": "N",
+    "ar": "ن",
+    "phonetic": "/n/",
+    "example": {
+      "jp": "にんげん",
+      "pronunciation": "Ningen",
+      "en": "Human",
+      "ar": "إنسان"
+    }
+  }
+]

@@ -1,12 +1,12 @@
-# LoFi Engine
-Generate LoFi music on the go. You create your own atmosphere LoFi Engine sets the mood.
+# Japanese
+Generate LoFi music on the go. You create your own atmosphere Japanese sets the mood.
 
 ![screenshot](screenshots/screenshot.png)
 ## Features 🚀
 * Create your own LoFi studio with your unique music with minimal touches from this and that, be the Artist.
 * Works with major desktop platforms *Linux,* *Mac,* and *Windows*.
 * Doesn't require internet connection, your experience is fully private. 
-* LoFi Engine main focus is *customization*, *accessibility* and *artistic freedom*.
+* Japanese main focus is *customization*, *accessibility* and *artistic freedom*.
 ### customization
 1. **Playback**: If you want to listen to music or just listen to birds singing freely, you choose.
 2. **Look**: With carefully crafted artworks from talented artists makes the long study session a piece of joy.
