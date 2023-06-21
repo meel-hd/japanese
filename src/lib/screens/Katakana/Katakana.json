@@ -1,0 +1,600 @@
+[
+  {
+    "id": 1,
+    "letter": "ア",
+    "en": "A",
+    "ar": "أ",
+    "phonetic": "/a/",
+    "example": {
+      "jp": "アメリカ",
+      "pronunciation": "Amerika",
+      "en": "America",
+      "ar": " أمريكا"
+    }
+  },
+  {
+    "id": 2,
+    "letter": "イ",
+    "en": "I",
+    "ar": "إ",
+    "phonetic": "/i/",
+    "example": {
+      "jp": "イギリス",
+      "pronunciation": "Igirisu",
+      "en": "England",
+      "ar": "إنجلترا"
+    }
+  },
+  {
+    "id": 3,
+    "letter": "ウ",
+    "en": "U",
+    "ar": "أو",
+    "phonetic": "/u/",
+    "example": {
+      "jp": "ウクライナ",
+      "pronunciation": "Ukuraina",
+      "en": "Ukraine",
+      "ar": "أوكرانيا"
+    }
+  },
+  {
+    "id": 4,
+    "letter": "エ",
+    "en": "E",
+    "ar": "إي",
+    "phonetic": "/e/",
+    "example": {
+      "jp": "エジプト",
+      "pronunciation": "Ejypto",
+      "en": "Egypt",
+      "ar": "مصر"
+    }
+  },
+  {
+    "id": 5,
+    "letter": "オ",
+    "en": "O",
+    "ar": "أو",
+    "phonetic": "/o/",
+    "example": {
+      "jp": "オーストラリア",
+      "pronunciation": "Oosutoraria",
+      "en": "Australia",
+      "ar": "أستراليا"
+    }
+  },
+  {
+    "id": 6,
+    "letter": "カ",
+    "en": "KA",
+    "ar": "كا",
+    "phonetic": "/ka/",
+    "example": {
+      "jp": "カナダ",
+      "pronunciation": "Kanada",
+      "en": "Canada",
+      "ar": "كندا"
+    }
+  },
+  {
+    "id": 7,
+    "letter": "キ",
+    "en": "KI",
+    "ar": "كي",
+    "phonetic": "/ki/",
+    "example": {
+      "jp": "キャンディ",
+      "pronunciation": "Kyandi",
+      "en": "Candy",
+      "ar": "حلوى"
+    }
+  },
+  {
+    "id": 8,
+    "letter": "ク",
+    "en": "KU",
+    "ar": "كو",
+    "phonetic": "/ku/",
+    "example": {
+      "jp": "クッキー",
+      "pronunciation": "Kukkii",
+      "en": "Cookie",
+      "ar": "بسكويت"
+    }
+  },
+  {
+    "id": 9,
+    "letter": "ケ",
+    "en": "KE",
+    "ar": "كي",
+    "phonetic": "/ke/",
+    "example": {
+      "jp": "ケーキ",
+      "pronunciation": "Keeki",
+      "en": "Cake",
+      "ar": "كعكة"
+    }
+  },
+  {
+    "id": 10,
+    "letter": "コ",
+    "en": "KO",
+    "ar": "كو",
+    "phonetic": "/ko/",
+    "example": {
+      "jp": "コロナ",
+      "pronunciation": "Korona",
+      "en": "Corona",
+      "ar": "كورونا"
+    }
+  },
+  {
+    "id": 11,
+    "letter": "サ",
+    "en": "SA",
+    "ar": "سا",
+    "phonetic": "/sa/",
+    "example": {
+      "jp": "サッカー",
+      "pronunciation": "Sakkaa",
+      "en": "Soccer",
+      "ar": "كرة القدم"
+    }
+  },
+  {
+    "id": 12,
+    "letter": "シ",
+    "en": "SHI",
+    "ar": "شي",
+    "phonetic": "/shi/",
+    "example": {
+      "jp": "シャンプー",
+      "pronunciation": "Shanpuu",
+      "en": "Shampoo",
+      "ar": "شامبو"
+    }
+  },
+  {
+    "id": 13,
+    "letter": "ス",
+    "en": "SU",
+    "ar": "سو",
+    "phonetic": "/su/",
+    "example": {
+      "jp": "スーパー",
+      "pronunciation": "Suupaa",
+      "en": "Supermarket",
+      "ar": "سوبرماركت"
+    }
+  },
+  {
+    "id": 14,
+    "letter": "セ",
+    "en": "SE",
+    "ar": "سي",
+    "phonetic": "/se/",
+    "example": {
+      "jp": "セーター",
+      "pronunciation": "Seetaa",
+      "en": "Sweater",
+      "ar": "سترة"
+    }
+  },
+  {
+    "id": 15,
+    "letter": "ソ",
+    "en": "SO",
+    "ar": "سو",
+    "phonetic": "/so/",
+    "example": {
+      "jp": "ソファー",
+      "pronunciation": "Sofaa",
+      "en": "Sofa",
+      "ar": "صوفا"
+    }
+  },
+  {
+    "id": 16,
+    "letter": "タ",
+    "en": "TA",
+    "ar": "تا",
+    "phonetic": "/ta/",
+    "example": {
+      "jp": "タクシー",
+      "pronunciation": "Takushii",
+      "en": "Taxi",
+      "ar": "تاكسي"
+    }
+  },
+  {
+    "id": 17,
+    "letter": "チ",
+    "en": "CHI",
+    "ar": "تشي",
+    "phonetic": "/chi/",
+    "example": {
+      "jp": "チーズ",
+      "pronunciation": "Chiizu",
+      "en": "Cheese",
+      "ar": "جبنة"
+    }
+  },
+  {
+    "id": 18,
+    "letter": "ツ",
+    "en": "TSU",
+    "ar": "تسو",
+    "phonetic": "/tsu/",
+    "example": {
+      "jp": "ツナ",
+      "pronunciation": "Tsuna",
+      "en": "Tuna",
+      "ar": "تونة"
+    }
+  },
+  {
+    "id": 19,
+    "letter": "テ",
+    "en": "TE",
+    "ar": "تي",
+    "phonetic": "/te/",
+    "example": {
+      "jp": "テニス",
+      "pronunciation": "Tenisu",
+      "en": "Tennis",
+      "ar": "تنس"
+    }
+  },
+  {
+    "id": 20,
+    "letter": "ト",
+    "en": "TO",
+    "ar": "تو",
+    "phonetic": "/to/",
+    "example": {
+      "jp": "トマト",
+      "pronunciation": "Tomato",
+      "en": "Tomato",
+      "ar": "طماطم"
+    }
+  },
+  {
+    "id": 21,
+    "letter": "ナ",
+    "en": "NA",
+    "ar": "نا",
+    "phonetic": "/na/",
+    "example": {
+      "jp": "ナイフ",
+      "pronunciation": "Naifu",
+      "en": "Knife",
+      "ar": "سكين"
+    }
+  },
+  {
+    "id": 22,
+    "letter": "ニ",
+    "en": "NI",
+    "ar": "ني",
+    "phonetic": "/ni/",
+    "example": {
+      "jp": "ニュース",
+      "pronunciation": "Nyusu",
+      "en": "News",
+      "ar": "أخبار"
+    }
+  },
+  {
+    "id": 23,
+    "letter": "ヌ",
+    "en": "NU",
+    "ar": "نو",
+    "phonetic": "/nu/",
+    "example": {
+      "jp": "ヌードル",
+      "pronunciation": "Nuudoru",
+      "en": "Noodle",
+      "ar": "نودلز"
+    }
+  },
+  {
+    "id": 24,
+    "letter": "ネ",
+    "en": "NE",
+    "ar": "ني",
+    "phonetic": "/ne/",
+    "example": {
+      "jp": "ネックレス",
+      "pronunciation": "Nekkuresu",
+      "en": "Necklace",
+      "ar": "قلادة"
+    }
+  },
+  {
+    "id": 25,
+    "letter": "ノ",
+    "en": "NO",
+    "ar": "نو",
+    "phonetic": "/no/",
+    "example": {
+      "jp": "ノート",
+      "pronunciation": "Nooto",
+      "en": "Notebook",
+      "ar": "دفتر"
+    }
+  },
+  {
+    "id": 26,
+    "letter": "ハ",
+    "en": "HA",
+    "ar": "ها",
+    "phonetic": "/ha/",
+    "example": {
+      "jp": "ハンバーガー",
+      "pronunciation": "Hanbaagaa",
+      "en": "Hamburger",
+      "ar": "همبرغر"
+    }
+  },
+  {
+    "id": 27,
+    "letter": "ヒ",
+    "en": "HI",
+    "ar": "هي",
+    "phonetic": "/hi/",
+    "example": {
+      "jp": "ヒマラヤ",
+      "pronunciation": "Himara-ya",
+      "en": "Himalayas",
+      "ar": "الهيمالايا"
+    }
+  },
+  {
+    "id": 28,
+    "letter": "フ",
+    "en": "FU",
+    "ar": "فو",
+    "phonetic": "/fu/",
+    "example": {
+      "jp": "フラミンゴ",
+      "pronunciation": "Furamingo",
+      "en": "Flamingo",
+      "ar": "الفلامنغو"
+    }
+  },
+  {
+    "id": 29,
+    "letter": "ヘ",
+    "en": "HE",
+    "ar": "هي",
+    "phonetic": "/he/",
+    "example": {
+      "jp": "ヘアバンド",
+      "pronunciation": "Heaban-do",
+      "en": "Headband",
+      "ar": "حزام الرأس"
+    }
+  },
+  {
+    "id": 30,
+    "letter": "ホ",
+    "en": "HO",
+    "ar": "هو",
+    "phonetic": "/ho/",
+    "example": {
+      "jp": "ホテル",
+      "pronunciation": "Hoteru",
+      "en": "Hotel",
+      "ar": "فندق"
+    }
+  },
+  {
+    "id": 31,
+    "letter": "マ",
+    "en": "MA",
+    "ar": "ما",
+    "phonetic": "/ma/",
+    "example": {
+      "jp": "マンゴー",
+      "pronunciation": "Mangoo",
+      "en": "Mango",
+      "ar": "مانجو"
+    }
+  },
+  {
+    "id": 32,
+    "letter": "ミ",
+    "en": "MI",
+    "ar": "مي",
+    "phonetic": "/mi/",
+    "example": {
+      "jp": "ミュージカル",
+      "pronunciation": "Myuujikaru",
+      "en": "Musical",
+      "ar": "موسيقي"
+    }
+  },
+  {
+    "id": 33,
+    "letter": "ム",
+    "en": "MU",
+    "ar": "مو",
+    "phonetic": "/mu/",
+    "example": {
+      "jp": "ムービー",
+      "pronunciation": "Muubii",
+      "en": "Movie",
+      "ar": "فيلم"
+    }
+  },
+  {
+    "id": 34,
+    "letter": "メ",
+    "en": "ME",
+    "ar": "مي",
+    "phonetic": "/me/",
+    "example": {
+      "jp": "メガネ",
+      "pronunciation": "Megane",
+      "en": "Glasses",
+      "ar": "نظارات"
+    }
+  },
+  {
+    "id": 35,
+    "letter": "モ",
+    "en": "MO",
+    "ar": "مو",
+    "phonetic": "/mo/",
+    "example": {
+      "jp": "モバイル",
+      "pronunciation": "Mobairu",
+      "en": "Mobile",
+      "ar": "جوال"
+    }
+  },
+  {
+    "id": 36,
+    "letter": "ヤ",
+    "en": "YA",
+    "ar": "يا",
+    "phonetic": "/ya/",
+    "example": {
+      "jp": "ヤクルト",
+      "pronunciation": "Yakuruto",
+      "en": "Yakult",
+      "ar": "ياكولت"
+    }
+  },
+  {
+    "id": 37,
+    "letter": "ユ",
+    "en": "YU",
+    "ar": "يو",
+    "phonetic": "/yu/",
+    "example": {
+      "jp": "ユーモア",
+      "pronunciation": "Yu-moa",
+      "en": "Humor",
+      "ar": "فكاهة"
+    }
+  },
+  {
+    "id": 38,
+    "letter": "ヨ",
+    "en": "YO",
+    "ar": "يو",
+    "phonetic": "/yo/",
+    "example": {
+      "jp": "ヨーグルト",
+      "pronunciation": "Yo-guruto",
+      "en": "Yogurt",
+      "ar": "زبادي"
+    }
+  },
+  {
+    "id": 39,
+    "letter": "ラ",
+    "en": "RA",
+    "ar": "را",
+    "phonetic": "/ra/",
+    "example": {
+      "jp": "ライオン",
+      "pronunciation": "Raion",
+      "en": "Lion",
+      "ar": "أسد"
+    }
+  },
+  {
+    "id": 40,
+    "letter": "リ",
+    "en": "RI",
+    "ar": "ري",
+    "phonetic": "/ri/",
+    "example": {
+      "jp": "リンゴ",
+      "pronunciation": "Ringo",
+      "en": "Apple",
+      "ar": "تفاحة"
+    }
+  },
+  {
+    "id": 41,
+    "letter": "ル",
+    "en": "RU",
+    "ar": "رو",
+    "phonetic": "/ru/",
+    "example": {
+      "jp": "ルージュ",
+      "pronunciation": "Ryuujyu",
+      "en": "Dragon",
+      "ar": "تنين"
+    }
+  },
+  {
+    "id": 42,
+    "letter": "レ",
+    "en": "RE",
+    "ar": "ري",
+    "phonetic": "/re/",
+    "example": {
+      "jp": "レストラン",
+      "pronunciation": "Resutoran",
+      "en": "Restaurant",
+      "ar": "مطعم"
+    }
+  },
+  {
+    "id": 43,
+    "letter": "ロ",
+    "en": "RO",
+    "ar": "رو",
+    "phonetic": "/ro/",
+    "example": {
+      "jp": "ロボット",
+      "pronunciation": "Robotto",
+      "en": "Robot",
+      "ar": "روبوت"
+    }
+  },
+  {
+    "id": 44,
+    "letter": "ワ",
+    "en": "WA",
+    "ar": "وا",
+    "phonetic": "/wa/",
+    "example": {
+      "jp": "ワイン",
+      "pronunciation": "Wain",
+      "en": "Wine",
+      "ar": "نبيذ"
+    }
+  },
+  {
+    "id": 45,
+    "letter": "ウォ",
+    "en": "WO",
+    "ar": "وو",
+    "phonetic": "/wo/",
+    "example": {
+      "jp": "ウォーター",
+      "pronunciation": "Wōtā",
+      "en": "Water",
+      "ar": "ماء"
+    }
+  },
+  {
+    "id": 46,
+    "letter": "ン",
+    "en": "N",
+    "ar": "ن",
+    "phonetic": "/n/",
+    "example": {
+      "jp": "パン",
+      "pronunciation": "Pan",
+      "en": "Bread",
+      "ar": "خبز"
+    }
+  }
+]
