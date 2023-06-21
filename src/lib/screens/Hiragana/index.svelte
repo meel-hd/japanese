@@ -34,13 +34,28 @@
     <h1>{Hiragana[charIndex].en.toUpperCase()}</h1>
     <p id="phonetic">{Hiragana[charIndex].phonetic}</p>
     <h1>{Hiragana[charIndex].ar}</h1>
+    <button
+      on:click={() => {
+        const audio = new Audio(
+          "/assets/Kana/" + Hiragana[charIndex].en.toLowerCase() + ".mp3"
+        );
+        audio.play();
+        audio.remove();
+      }}
+    >
+      <img alt="" src="/assets/svg/sound.svg" /></button
+    >
   </div>
   <div id="controls">
     <button on:click={back}>
-      <img style="transform: rotate(180deg);" alt="" src="/Triangle.png" />
+      <img
+        style="transform: rotate(180deg);"
+        alt=""
+        src="/assets/svg/arrow.svg"
+      />
     </button>
     <button on:click={next}>
-      <img alt="" src="Triangle.png" />
+      <img alt="" src="/assets/svg/arrow.svg" />
     </button>
   </div>
 </main>
@@ -94,5 +109,8 @@
   }
   #controls button img {
     width: 14px;
+  }
+  #details img {
+    widows: 18px;
   }
 </style>
