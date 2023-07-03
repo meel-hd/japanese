@@ -7,7 +7,7 @@
 <section id="super-special-settings-id">
   <div id="settings-head">
     <h2>Settings</h2>
-    <button on:click={close}><img alt="" src="\assets\svg\close.svg" /></button>
+    <button on:click={close}><img alt="" src="assets\svg\close.svg" /></button>
   </div>
   <div id="container">
     <Fonts />
@@ -24,6 +24,7 @@
     border-radius: 20px;
     padding: 10px;
     overflow-y: scroll;
+    z-index: 200;
   }
   #settings-head {
     display: flex;
