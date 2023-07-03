@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Table from "../../components/Alphabet/Chart.svelte";
   import Hiragana from "./Hiragana.json";
   let charIndex = 0;
   function next() {
@@ -17,6 +18,14 @@
   }
 </script>
 
+<div id="top-right">
+  <Table
+    selected={charIndex}
+    title={"Hiragana Chart"}
+    select={(id) => (charIndex = id)}
+    data={Hiragana}
+  />
+</div>
 <main>
   <h1 id="char">{Hiragana[charIndex].letter}</h1>
   <div id="example">
@@ -113,5 +122,10 @@
   }
   #details img {
     widows: 18px;
+  }
+  #top-right {
+    position: absolute;
+    top: 20px;
+    right: 40px;
   }
 </style>

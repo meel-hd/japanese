@@ -1,5 +1,6 @@
 <script lang="ts">
   import Katakana from "./Katakana.json";
+  import Table from "../../components/Alphabet/Chart.svelte";
   let charIndex = 0;
   function next() {
     if (charIndex < 45) {
@@ -17,6 +18,14 @@
   }
 </script>
 
+<div id="top-right">
+  <Table
+    selected={charIndex}
+    title={"Katakana Chart"}
+    select={(id) => (charIndex = id)}
+    data={Katakana}
+  />
+</div>
 <main>
   <h1 id="char">{Katakana[charIndex].letter}</h1>
   <div id="example">
@@ -113,5 +122,10 @@
   }
   #details img {
     widows: 18px;
+  }
+  #top-right {
+    position: absolute;
+    top: 20px;
+    right: 40px;
   }
 </style>
