@@ -30,7 +30,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.lofi-engine.dev",
+      "identifier": "com.learn-japanese.dev",
       "targets": "all"
     },
     "security": {
