@@ -41,8 +41,8 @@
   </div>
   <div id="details">
     <h1>{Hiragana[charIndex].en.toUpperCase()}</h1>
-    <p id="phonetic">{Hiragana[charIndex].phonetic}</p>
-    <h1>{Hiragana[charIndex].ar}</h1>
+    <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
+    <h2>{Hiragana[charIndex].ar}</h2>
     <button
       on:click={() => {
         const audio = new Audio(
@@ -86,8 +86,7 @@
     bottom: 0;
     left: 0;
   }
-  #example #pronc,
-  #details #phonetic {
+  #example #pronc {
     margin-left: 20px;
     margin-top: -10px;
     color: darkgrey;
