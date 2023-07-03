@@ -54,6 +54,30 @@
         on:click={() => setTypeface("Courier New")}
         id="font-select">Courier New</button
       >
+      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+      <button
+        on:mouseover={() => {
+          preview = "Perpetua";
+        }}
+        on:click={() => setTypeface("Perpetua")}
+        id="font-select">Perpetua</button
+      >
+      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+      <button
+        on:mouseover={() => {
+          preview = "Georgia";
+        }}
+        on:click={() => setTypeface("Georgia")}
+        id="font-select">Georgia</button
+      >
+      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+      <button
+        on:mouseover={() => {
+          preview = "Verdana";
+        }}
+        on:click={() => setTypeface("Verdana")}
+        id="font-select">Verdana</button
+      >
     </div>
   {/if}
 </div>
@@ -74,7 +98,7 @@
   #select-box {
     width: 180px;
     border-radius: 20px;
-    box-shadow: 3px 4px 3px 3px #00000010;
+    box-shadow: 1px 1px 3px 3px #00000008;
     padding: 5px;
   }
   #font-select {
