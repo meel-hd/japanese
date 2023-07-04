@@ -38,12 +38,12 @@
     </h1>
     <p id="pronc">{Hiragana[charIndex].example.pronunciation}</p>
     <p>{Hiragana[charIndex].example.en}</p>
-    <p>{Hiragana[charIndex].example.ar}</p>
+    <!-- <p>{Hiragana[charIndex].example.ar}</p> -->
   </div>
   <div id="details">
     <h1>{Hiragana[charIndex].en.toUpperCase()}</h1>
     <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
-    <h2>{Hiragana[charIndex].ar}</h2>
+    <!-- <h2>{Hiragana[charIndex].ar}</h2> -->
     <button
       on:click={() => {
         const audio = new Audio(
@@ -98,6 +98,9 @@
     position: absolute;
     top: 0;
     right: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   #controls {
     position: absolute;
