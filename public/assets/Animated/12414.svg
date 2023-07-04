@@ -1,0 +1,60 @@
+<!--
+AnimCJK 2016-2023 Copyright FM&SH, https://github.com/parsimonhi/animCJK
+You can redistribute and/or modify these files under the terms of the GNU
+Lesser General Public License as published by the Free Software Foundation,
+either version 3 of the license, or (at your option) any later version. You
+should have received a copy of this license (the file "LGPL.txt") along with
+these files; if not, see <http://www.gnu.org/licenses/>.
+-->
+<svg id="z12414" class="acjk" version="1.1" viewBox="0 0 1024 1024"
+	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+<![CDATA[
+@keyframes zk {
+	to {
+		stroke-dashoffset:0;
+	}
+}
+svg.acjk path[clip-path] {
+	--t:0.8s;
+	animation:zk var(--t) linear forwards var(--d);
+	stroke-dasharray:3337;
+	stroke-dashoffset:3339;
+	stroke-width:128;
+	stroke-linecap:round;
+	fill:none;
+	stroke:#4e43b0;
+}
+svg.acjk path[id] {fill:#ccc;}
+]]>
+</style>
+	<path id="z12414d1"
+		d="M694 199C677 199 664 211 648 215C604 230 558 239 512 250C474 258 437 268 398 273C358 278 317 272 277 264C268 263 256 262 250 270C246 279 254 287 260 292C278 308 302 311 324 319C346 326 370 328 394 326C419 325 445 322 469 316C555 299 641 278 727 263C743 260 760 257 772 245C777 239 773 229 767 226C752 214 733 208 715 202C708 200 701 198 694 199Z" />
+	<path id="z12414d2"
+		d="M718 444C692 445 671 463 646 469C577 490 506 503 434 513C400 518 366 522 332 518C309 515 287 508 265 501C258 500 251 507 253 515C256 529 271 535 282 543C313 561 349 566 385 565C423 565 461 558 499 554C532 551 565 548 597 540C650 528 703 517 755 503C764 500 775 494 775 483C773 469 759 462 749 455C740 449 729 444 718 444Z" />
+	<path id="z12414d3a"
+		d="M488 77C478 77 467 85 469 95C473 106 481 114 485 124C497 150 493 180 495 207C500 301 500 395 502 489C503 580 503 671 502 762C502 784 499 807 490 827C473 859 438 881 402 883C373 886 344 885 317 875C304 868 295 855 295 840C296 833 293 831 287 833C275 833 264 833 253 833C251 870 274 906 308 921C343 938 383 937 421 931C468 923 512 898 542 861C555 845 563 824 564 803C566 772 564 740 565 709C564 527 559 346 559 165C559 154 560 142 565 132C569 119 562 104 551 97C533 84 510 78 488 77Z" />
+	<path id="z12414d3b"
+		d="M367 739C327 739 285 757 264 792C256 807 252 824 253 841C267 841 281 841 295 841C292 819 307 798 327 790C355 778 387 785 416 791C472 804 525 827 578 848C643 876 707 905 771 935C785 939 804 930 806 914C812 886 795 854 767 846C707 823 644 807 583 786C532 770 481 753 428 744C408 740 387 738 367 739Z" />
+	<defs>
+		<clipPath id="z12414c1">
+			<use xlink:href="#z12414d1" />
+		</clipPath>
+		<clipPath id="z12414c2">
+			<use xlink:href="#z12414d2" />
+		</clipPath>
+		<clipPath id="z12414c3a">
+			<use xlink:href="#z12414d3a" />
+		</clipPath>
+		<clipPath id="z12414c3b">
+			<use xlink:href="#z12414d3b" />
+		</clipPath>
+	</defs>
+	<path style="--d:1s;" pathLength="3333" clip-path="url(#z12414c1)"
+		d="M255 273L379 301L699 233L769 238" />
+	<path style="--d:2s;" pathLength="3333" clip-path="url(#z12414c2)" d="M258 513L391 542L770 479" />
+	<path style="--d:3s;" pathLength="3333" clip-path="url(#z12414c3a)"
+		d="M477 88L528 130L526 824L480 880L391 909L305 894L280 834" />
+	<path style="--d:3s;" pathLength="3333" clip-path="url(#z12414c3b)"
+		d="M792 929L759 885L400 763L310 775L273 840" />
+</svg>

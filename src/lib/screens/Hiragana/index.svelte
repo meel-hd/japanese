@@ -1,6 +1,7 @@
 <script lang="ts">
   import Table from "../../components/Alphabet/Chart.svelte";
   import Hiragana from "./Hiragana.json";
+  import Writing from "../../components/Alphabet/Writing.svelte";
   let charIndex = 0;
   function next() {
     if (charIndex < 45) {
@@ -54,6 +55,7 @@
     >
       <img alt="" src="/assets/svg/sound.svg" /></button
     >
+    <Writing {next} char={Hiragana[charIndex].letter} />
   </div>
   <div id="controls">
     <button on:click={back}>
@@ -115,6 +117,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  button:hover {
+    box-shadow: 3px 4px 3px #00000010;
   }
   #controls button img {
     width: 14px;
