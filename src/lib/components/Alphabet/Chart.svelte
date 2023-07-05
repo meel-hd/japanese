@@ -13,6 +13,12 @@
   export let select: (id: number) => void;
   export let title: string;
   export let selected: number;
+
+  const dataPartOne = data.slice(0, 35);
+  const dataPartTwo = data.slice(35, 38);
+  const dataPart3 = data.slice(38, 43);
+  const dataPart4 = data.slice(43, 45);
+  const dataPart5 = data.slice(45, 46);
 </script>
 
 <div>
@@ -28,15 +34,80 @@
         </button>
       </div>
       <div id="content">
-        {#each data as char}
+        {#each dataPartOne as char}
           <button
             on:click={() => {
               opened = false;
               select(char.id - 1);
             }}
-            class={selected == char.id - 1 ? "selected-item" : ""}
-            id="item-btn">{char.letter}</button
+            class={selected == char.id - 1 ? "selected-item " : ""}
+            id="item-btn"
           >
+            {char.letter}
+            <p>{char.en}</p>
+          </button>
+        {/each}
+      </div>
+      <div id="rest-data">
+        {#each dataPartTwo as char}
+          <button
+            on:click={() => {
+              opened = false;
+              select(char.id - 1);
+            }}
+            class={selected == char.id - 1 ? "selected-item " : ""}
+            id="item-btn"
+          >
+            {char.letter}
+            <p>{char.en}</p>
+          </button>
+        {/each}
+      </div>
+      <div id="rest-data">
+        {#each dataPart3 as char}
+          <button
+            on:click={() => {
+              opened = false;
+              select(char.id - 1);
+            }}
+            class={selected == char.id - 1 ? "selected-item " : ""}
+            id="item-btn"
+          >
+            {char.letter}
+            <p>{char.en}</p>
+          </button>
+        {/each}
+      </div>
+
+      <div id="rest-data">
+        {#each dataPart4 as char}
+          <button
+            on:click={() => {
+              opened = false;
+              select(char.id - 1);
+            }}
+            class={selected == char.id - 1 ? "selected-item " : ""}
+            id="item-btn"
+          >
+            {char.letter}
+            <p>{char.en}</p>
+          </button>
+        {/each}
+      </div>
+
+      <div id="rest-data">
+        {#each dataPart5 as char}
+          <button
+            on:click={() => {
+              opened = false;
+              select(char.id - 1);
+            }}
+            class={selected == char.id - 1 ? "selected-item " : ""}
+            id="item-btn"
+          >
+            {char.letter}
+            <p>{char.en}</p>
+          </button>
         {/each}
       </div>
     </div>
@@ -49,18 +120,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 40px;
+    width: 50px;
+    height: 50px;
     padding: 10px;
     background-color: var(--light-primary);
+    margin-bottom: 20px;
   }
   button:hover {
     box-shadow: 3px 4px 3px #00000010;
   }
   #model {
     position: absolute;
-    top: 20vh;
-    right: 20vw;
+    top: 5vh;
+    right: 10vw;
     width: 50vw;
     height: 60vh;
     border-radius: 20px;
@@ -68,6 +140,7 @@
     box-shadow: 3px 4px 3px #00000010;
     z-index: 100;
     padding: 10px 20px;
+    overflow-x: scroll;
   }
   #model-top {
     display: flex;
@@ -78,28 +151,40 @@
     background-color: white;
   }
   #content {
-    overflow-x: scroll;
-    max-height: 53vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 19px;
+    gap: 20px;
   }
   #item-btn {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    font-size: large;
+    font-size: 20px;
+    position: relative;
   }
   #item-btn:hover {
     box-shadow: none;
     background-color: white;
   }
+  #item-btn p {
+    position: absolute;
+    right: 5px;
+    bottom: -7px;
+    font-size: 10px;
+  }
   .selected-item {
     background-color: white;
+  }
+  #rest-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
   }
 </style>

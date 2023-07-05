@@ -19,14 +19,6 @@
   }
 </script>
 
-<div id="top-right">
-  <Table
-    selected={charIndex}
-    title={"Katakana Chart"}
-    select={(id) => (charIndex = id)}
-    data={Katakana}
-  />
-</div>
 <main>
   <h1 id="char">{Katakana[charIndex].letter}</h1>
   <div id="example">
@@ -44,6 +36,12 @@
     <h1>{Katakana[charIndex].en.toUpperCase()}</h1>
     <!-- <p id="phonetic">{Katakana[charIndex].phonetic}</p> -->
     <!-- <h2>{Katakana[charIndex].ar}</h2> -->
+    <Table
+      selected={charIndex}
+      title={"Katakana Chart"}
+      select={(id) => (charIndex = id)}
+      data={Katakana}
+    />
     <button
       on:click={() => {
         const audio = new Audio(
@@ -130,10 +128,5 @@
   }
   #details img {
     widows: 18px;
-  }
-  #top-right {
-    position: absolute;
-    top: 20px;
-    right: 40px;
   }
 </style>

@@ -19,14 +19,6 @@
   }
 </script>
 
-<div id="top-right">
-  <Table
-    selected={charIndex}
-    title={"Hiragana Chart"}
-    select={(id) => (charIndex = id)}
-    data={Hiragana}
-  />
-</div>
 <main>
   <h1 id="char">{Hiragana[charIndex].letter}</h1>
   <div id="example">
@@ -44,6 +36,12 @@
     <h1>{Hiragana[charIndex].en.toUpperCase()}</h1>
     <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
     <!-- <h2>{Hiragana[charIndex].ar}</h2> -->
+    <Table
+      selected={charIndex}
+      title={"Hiragana Chart"}
+      select={(id) => (charIndex = id)}
+      data={Hiragana}
+    />
     <button
       on:click={() => {
         const audio = new Audio(
@@ -129,10 +127,5 @@
   }
   #details img {
     widows: 18px;
-  }
-  #top-right {
-    position: absolute;
-    top: 20px;
-    right: 40px;
   }
 </style>
