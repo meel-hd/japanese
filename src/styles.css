@@ -29,6 +29,7 @@ button {
   background: transparent;
   border: 0;
   cursor: pointer;
+  outline: black;
 }
 
 img {

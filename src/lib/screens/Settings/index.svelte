@@ -1,5 +1,6 @@
 <script lang="ts">
   import Fonts from "./Fonts.svelte";
+  import Tutorial from "./Tutorial.svelte";
 
   export let close;
 </script>
@@ -11,6 +12,7 @@
   </div>
   <div id="container">
     <Fonts />
+    <Tutorial />
   </div>
 </section>
 

@@ -3,6 +3,7 @@
   import Katakana from "./lib/screens/Katakana/index.svelte";
   import Settings from "./lib/screens/Settings/index.svelte";
   import Config from "./lib/scripts/config.svelte";
+  import Tutorial from "./lib/components/Tutorial/index.svelte";
 
   let selected: "Hira" | "Kata" | "Kanji" =
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
@@ -28,6 +29,7 @@
 
 <main>
   <Config />
+  <Tutorial />
   <header>
     <button id={selected == "Hira" ? "active" : ""} on:click={selectHira}
       >Hiragana</button
