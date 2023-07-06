@@ -29,7 +29,7 @@ button {
   background: transparent;
   border: 0;
   cursor: pointer;
-  outline: black;
+  box-shadow: 0px 10px 40px #00000006;
 }
 
 img {
@@ -37,9 +37,6 @@ img {
   pointer-events: none;
 }
 
-button {
-  box-shadow: 0px 10px 40px #00000006;
-}
 
 body *::-webkit-scrollbar {
   width: 0.2rem;

@@ -135,7 +135,7 @@
   #model {
     position: absolute;
     top: 5vh;
-    right: 10vw;
+    right: 9vw;
     width: 50vw;
     height: 60vh;
     border-radius: 20px;

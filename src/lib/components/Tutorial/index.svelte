@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Toggle from "../Keyboard/Toggle.svelte";
+
   let step = 1;
   let visible = localStorage.getItem("hide-tutorial") != "yes";
   let hideCheckbox = false;
@@ -35,6 +37,8 @@
       localStorage.setItem("hide-tutorial", "yes");
     }
     visible = false;
+    step = 1;
+    progress = 20;
   }
 </script>
 
@@ -180,6 +184,12 @@
     </div>
   </main>
 {/if}
+<Toggle
+  key="e"
+  toggle={() => {
+    visible = true;
+  }}
+/>
 
 <style>
   main {

@@ -1,5 +1,6 @@
 <script lang="ts">
   import Fonts from "./Fonts.svelte";
+  import Shortcuts from "./Shortcuts.svelte";
   import Tutorial from "./Tutorial.svelte";
 
   export let close;
@@ -13,14 +14,15 @@
   <div id="container">
     <Fonts />
     <Tutorial />
+    <Shortcuts />
   </div>
 </section>
 
 <style>
   section {
     position: absolute;
-    width: 40vw;
-    height: 50vh;
+    width: 55vw;
+    height: 65vh;
     background-color: white;
     box-shadow: 1px 1px 3px 3px #00000008;
     border-radius: 20px;

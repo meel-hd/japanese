@@ -11,18 +11,18 @@
     }
     if (e.key == "ArrowRight") {
       next();
+      playSound();
     }
     if (e.key == "ArrowLeft") {
       back();
+      playSound();
     }
     if (e.key == "ArrowUp") {
       next();
-      playSound();
     }
 
     if (e.key == "ArrowDown") {
       back();
-      playSound();
     }
   };
 

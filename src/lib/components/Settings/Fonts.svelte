@@ -41,30 +41,6 @@
       <!-- svelte-ignore a11y-mouse-events-have-key-events -->
       <button
         on:mouseover={() => {
-          preview = "Arial";
-        }}
-        on:click={() => setTypeface("Arial")}
-        id="font-select">Arial</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Courier New";
-        }}
-        on:click={() => setTypeface("Courier New")}
-        id="font-select">Courier New</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Perpetua";
-        }}
-        on:click={() => setTypeface("Perpetua")}
-        id="font-select">Perpetua</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
           preview = "Georgia";
         }}
         on:click={() => setTypeface("Georgia")}
@@ -77,6 +53,14 @@
         }}
         on:click={() => setTypeface("Verdana")}
         id="font-select">Verdana</button
+      >
+      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+      <button
+        on:mouseover={() => {
+          preview = "Perpetua";
+        }}
+        on:click={() => setTypeface("Perpetua")}
+        id="font-select">Perpetua</button
       >
     </div>
   {/if}
