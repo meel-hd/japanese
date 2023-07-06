@@ -2,6 +2,7 @@
   import Table from "../../components/Alphabet/Chart.svelte";
   import Hiragana from "./Hiragana.json";
   import Writing from "../../components/Alphabet/Writing.svelte";
+  import KanaControls from "../../components/Keyboard/KanaControls.svelte";
   let charIndex = 0;
   function next() {
     if (charIndex < 45) {
@@ -16,6 +17,13 @@
     } else {
       charIndex--;
     }
+  }
+  function playSound() {
+    const audio = new Audio(
+      "/assets/Kana/" + Hiragana[charIndex].en.toLowerCase() + ".mp3"
+    );
+    audio.play();
+    audio.remove();
   }
 </script>
 
@@ -42,15 +50,7 @@
       select={(id) => (charIndex = id)}
       data={Hiragana}
     />
-    <button
-      on:click={() => {
-        const audio = new Audio(
-          "/assets/Kana/" + Hiragana[charIndex].en.toLowerCase() + ".mp3"
-        );
-        audio.play();
-        audio.remove();
-      }}
-    >
+    <button on:click={playSound}>
       <img alt="" src="/assets/svg/sound.svg" /></button
     >
     <Writing {next} char={Hiragana[charIndex].letter} />
@@ -67,6 +67,7 @@
       <img alt="" src="/assets/svg/arrow.svg" />
     </button>
   </div>
+  <KanaControls {next} {back} {playSound} />
 </main>
 
 <style>

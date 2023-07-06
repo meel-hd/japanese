@@ -1,9 +1,18 @@
 <script lang="ts">
+  import Toggle from "../Keyboard/Toggle.svelte";
+
   export let char: string;
   export let next: () => void;
   let opened = false;
   let refrech = false;
   let infoIsVisible = false;
+
+  function replay() {
+    refrech = true;
+    setTimeout(() => {
+      refrech = false;
+    }, 1);
+  }
 </script>
 
 <button
@@ -38,14 +47,7 @@
           on:click={() => (infoIsVisible = !infoIsVisible)}
           id="toggle-info">!</button
         >
-        <button
-          on:click={() => {
-            refrech = true;
-            setTimeout(() => {
-              refrech = false;
-            }, 1);
-          }}>R</button
-        >
+        <button on:click={replay}>R</button>
         <button on:click={next}>
           <img alt="" width="14px" src="/assets/svg/arrow.svg" />
         </button>
@@ -61,6 +63,8 @@
     </div>
   </div>
 {/if}
+<Toggle key="h" toggle={() => (opened = !opened)} />
+<Toggle key="r" toggle={replay} />
 
 <style>
   button {

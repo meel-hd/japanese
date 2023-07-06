@@ -1,9 +1,10 @@
 <script lang="ts">
   import Hiragana from "./lib/screens/Hiragana/index.svelte";
   import Katakana from "./lib/screens/Katakana/index.svelte";
-  import Settings from "./lib/screens/Settings/index.svelte";
+  import Settings from "./lib/components/Settings/index.svelte";
   import Config from "./lib/scripts/config.svelte";
   import Tutorial from "./lib/components/Tutorial/index.svelte";
+  import Toggle from "./lib/components/Keyboard/Toggle.svelte";
 
   let selected: "Hira" | "Kata" | "Kanji" =
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
@@ -59,6 +60,11 @@
   {#if settingsOpened}
     <Settings close={toggleSettings} />
   {/if}
+  <!-- Header Keyboard shorcuts controls -->
+  <Toggle toggle={selectHira} key="a" />
+  <Toggle toggle={selectKata} key="s" />
+  <Toggle toggle={selectKanji} key="d" />
+  <Toggle toggle={toggleSettings} key="f" />
 </main>
 
 <style>

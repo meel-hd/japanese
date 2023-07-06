@@ -8,7 +8,7 @@
 <section id="super-special-settings-id">
   <div id="settings-head">
     <h2>Settings</h2>
-    <button on:click={close}><img alt="" src="assets\svg\close.svg" /></button>
+    <button on:click={close}><img alt="" src="/assets/svg/close.svg" /></button>
   </div>
   <div id="container">
     <Fonts />

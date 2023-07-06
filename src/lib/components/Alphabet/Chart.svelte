@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Toggle from "../Keyboard/Toggle.svelte";
+
   let opened = false;
 
   //   Props
@@ -112,6 +114,7 @@
       </div>
     </div>
   {/if}
+  <Toggle key="g" toggle={() => (opened = !opened)} />
 </div>
 
 <style>
