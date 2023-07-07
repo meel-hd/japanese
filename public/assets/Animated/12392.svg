@@ -15,7 +15,7 @@ svg.acjk path[clip-path] {
 	stroke-width:128;
 	stroke-linecap:round;
 	fill:none;
-	stroke:#4e43b0;
+	stroke:#6F62E7;
 }
 svg.acjk path[id] {fill:#bbb}
 ]]>
