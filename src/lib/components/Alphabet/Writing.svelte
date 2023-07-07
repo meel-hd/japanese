@@ -81,9 +81,6 @@
     margin-top: 14px;
   }
 
-  #toggle-btn:hover {
-    box-shadow: 3px 4px 3px #00000010;
-  }
   #model {
     position: absolute;
     top: -15vh;
@@ -101,9 +98,6 @@
     justify-content: end;
     align-items: center;
     padding: 20px;
-  }
-  #close-btn:hover {
-    background-color: var(--bg);
   }
   #content {
     display: flex;

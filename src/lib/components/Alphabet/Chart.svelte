@@ -131,9 +131,6 @@
     background-color: var(--light-primary);
     margin-bottom: 20px;
   }
-  button:hover {
-    box-shadow: 3px 4px 3px #00000010;
-  }
   #model {
     position: absolute;
     top: 5vh;
@@ -151,9 +148,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  #close-btn:hover {
-    background-color: var(--bg);
   }
   #content {
     display: grid;
