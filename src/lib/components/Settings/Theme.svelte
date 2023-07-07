@@ -40,10 +40,10 @@
   button {
     width: 100px;
     height: 40px;
+    box-shadow: none;
   }
   #active {
     background-color: var(--light-primary);
     border-radius: 999px;
-    box-shadow: 2px 3px 5px #00000008;
   }
 </style>

@@ -8,7 +8,7 @@
   export let close;
 </script>
 
-<section id="super-special-settings-id">
+<section class="themed-shadow" id="super-special-settings-id">
   <div id="settings-head">
     <h2>Settings</h2>
     <button on:click={close}><Close /> </button>
@@ -27,7 +27,6 @@
     width: 55vw;
     height: 65vh;
     background-color: var(--bg);
-    box-shadow: 1px 1px 3px 3px #00000008;
     border-radius: 20px;
     padding: 10px;
     overflow-y: scroll;

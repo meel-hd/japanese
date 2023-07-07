@@ -43,7 +43,7 @@
 </script>
 
 {#if visible}
-  <main id="tutorial-model">
+  <main id="tutorial-model" class="themed-shadow">
     <div style="width: {progress}%" id="progress">{" "}</div>
     {#if step == 1}
       <div id="head">
@@ -203,7 +203,6 @@
     border-radius: 20px;
     background-color: var(--bg);
     transform: translate(-50%, -50%);
-    box-shadow: 3px 4px 10px 10px #00000008;
     overflow-y: scroll;
   }
   #head {

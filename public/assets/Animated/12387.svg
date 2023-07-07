@@ -1,11 +1,3 @@
-<!--
-AnimCJK 2016-2019 Copyright Francois Mizessyn, https://github.com/parsimonhi/animCJK
-You can redistribute and/or modify these files under the terms of the GNU
-Lesser General Public License as published by the Free Software Foundation,
-either version 3 of the license, or (at your option) any later version. You
-should have received a copy of this license (the file "LGPL.txt") along with
-these files; if not, see <http://www.gnu.org/licenses/>.
--->
 <svg id="z12387" class="acjk" version="1.1" viewBox="0 0 1024 1024"
 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<style>
@@ -25,7 +17,7 @@ svg.acjk path[clip-path] {
 	fill:none;
 	stroke:#4e43b0;
 }
-svg.acjk path[id] {fill:#ccc;}
+svg.acjk path[id] {fill:#bbb}
 ]]>
 </style>
 	<path id="z12387d1"

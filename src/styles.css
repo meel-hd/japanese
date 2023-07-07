@@ -21,6 +21,15 @@
   --text: #f5f5f5;
 }
 
+.themed-shadow {
+  box-shadow: 3px 4px 10px 7px #00000008;
+}
+
+.dark-mode .themed-shadow {
+
+  box-shadow: 3px 4px 10px 10px #00000020;
+}
+
 body {
   margin: 0;
   padding: 0;
