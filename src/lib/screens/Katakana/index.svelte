@@ -44,7 +44,7 @@
     <!-- <p>{Katakana[charIndex].example.ar}</p> -->
   </div>
   <div id="details">
-    <h1>{Katakana[charIndex].en.toUpperCase()}</h1>
+    <h1>{Katakana[charIndex].en}</h1>
     <!-- <p id="phonetic">{Katakana[charIndex].phonetic}</p> -->
     <!-- <h2>{Katakana[charIndex].ar}</h2> -->
     <Table

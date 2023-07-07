@@ -67,7 +67,7 @@
   {
     "id": 6,
     "letter": "カ",
-    "en": "KA",
+    "en": "Ka",
     "ar": "كا",
     "phonetic": "/ka/",
     "example": {
@@ -80,7 +80,7 @@
   {
     "id": 7,
     "letter": "キ",
-    "en": "KI",
+    "en": "Ki",
     "ar": "كي",
     "phonetic": "/ki/",
     "example": {
@@ -93,7 +93,7 @@
   {
     "id": 8,
     "letter": "ク",
-    "en": "KU",
+    "en": "Ku",
     "ar": "كو",
     "phonetic": "/ku/",
     "example": {
@@ -106,7 +106,7 @@
   {
     "id": 9,
     "letter": "ケ",
-    "en": "KE",
+    "en": "Ke",
     "ar": "كي",
     "phonetic": "/ke/",
     "example": {
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "letter": "コ",
-    "en": "KO",
+    "en": "Ko",
     "ar": "كو",
     "phonetic": "/ko/",
     "example": {
@@ -132,7 +132,7 @@
   {
     "id": 11,
     "letter": "サ",
-    "en": "SA",
+    "en": "Sa",
     "ar": "سا",
     "phonetic": "/sa/",
     "example": {
@@ -145,7 +145,7 @@
   {
     "id": 12,
     "letter": "シ",
-    "en": "SHI",
+    "en": "Shi",
     "ar": "شي",
     "phonetic": "/shi/",
     "example": {
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "letter": "ス",
-    "en": "SU",
+    "en": "Su",
     "ar": "سو",
     "phonetic": "/su/",
     "example": {
@@ -171,7 +171,7 @@
   {
     "id": 14,
     "letter": "セ",
-    "en": "SE",
+    "en": "Se",
     "ar": "سي",
     "phonetic": "/se/",
     "example": {
@@ -184,7 +184,7 @@
   {
     "id": 15,
     "letter": "ソ",
-    "en": "SO",
+    "en": "So",
     "ar": "سو",
     "phonetic": "/so/",
     "example": {
@@ -197,7 +197,7 @@
   {
     "id": 16,
     "letter": "タ",
-    "en": "TA",
+    "en": "Ta",
     "ar": "تا",
     "phonetic": "/ta/",
     "example": {
@@ -210,7 +210,7 @@
   {
     "id": 17,
     "letter": "チ",
-    "en": "CHI",
+    "en": "Chi",
     "ar": "تشي",
     "phonetic": "/chi/",
     "example": {
@@ -223,7 +223,7 @@
   {
     "id": 18,
     "letter": "ツ",
-    "en": "TSU",
+    "en": "Tsu",
     "ar": "تسو",
     "phonetic": "/tsu/",
     "example": {
@@ -236,7 +236,7 @@
   {
     "id": 19,
     "letter": "テ",
-    "en": "TE",
+    "en": "Te",
     "ar": "تي",
     "phonetic": "/te/",
     "example": {
@@ -249,7 +249,7 @@
   {
     "id": 20,
     "letter": "ト",
-    "en": "TO",
+    "en": "To",
     "ar": "تو",
     "phonetic": "/to/",
     "example": {
@@ -262,7 +262,7 @@
   {
     "id": 21,
     "letter": "ナ",
-    "en": "NA",
+    "en": "Na",
     "ar": "نا",
     "phonetic": "/na/",
     "example": {
@@ -275,7 +275,7 @@
   {
     "id": 22,
     "letter": "ニ",
-    "en": "NI",
+    "en": "Ni",
     "ar": "ني",
     "phonetic": "/ni/",
     "example": {
@@ -288,7 +288,7 @@
   {
     "id": 23,
     "letter": "ヌ",
-    "en": "NU",
+    "en": "Nu",
     "ar": "نو",
     "phonetic": "/nu/",
     "example": {
@@ -301,7 +301,7 @@
   {
     "id": 24,
     "letter": "ネ",
-    "en": "NE",
+    "en": "Ne",
     "ar": "ني",
     "phonetic": "/ne/",
     "example": {
@@ -314,7 +314,7 @@
   {
     "id": 25,
     "letter": "ノ",
-    "en": "NO",
+    "en": "No",
     "ar": "نو",
     "phonetic": "/no/",
     "example": {
@@ -327,7 +327,7 @@
   {
     "id": 26,
     "letter": "ハ",
-    "en": "HA",
+    "en": "Ha",
     "ar": "ها",
     "phonetic": "/ha/",
     "example": {
@@ -340,7 +340,7 @@
   {
     "id": 27,
     "letter": "ヒ",
-    "en": "HI",
+    "en": "Hi",
     "ar": "هي",
     "phonetic": "/hi/",
     "example": {
@@ -353,7 +353,7 @@
   {
     "id": 28,
     "letter": "フ",
-    "en": "FU",
+    "en": "Fu",
     "ar": "فو",
     "phonetic": "/fu/",
     "example": {
@@ -366,7 +366,7 @@
   {
     "id": 29,
     "letter": "ヘ",
-    "en": "HE",
+    "en": "He",
     "ar": "هي",
     "phonetic": "/he/",
     "example": {
@@ -379,7 +379,7 @@
   {
     "id": 30,
     "letter": "ホ",
-    "en": "HO",
+    "en": "Ho",
     "ar": "هو",
     "phonetic": "/ho/",
     "example": {
@@ -392,7 +392,7 @@
   {
     "id": 31,
     "letter": "マ",
-    "en": "MA",
+    "en": "Ma",
     "ar": "ما",
     "phonetic": "/ma/",
     "example": {
@@ -405,7 +405,7 @@
   {
     "id": 32,
     "letter": "ミ",
-    "en": "MI",
+    "en": "Mi",
     "ar": "مي",
     "phonetic": "/mi/",
     "example": {
@@ -418,7 +418,7 @@
   {
     "id": 33,
     "letter": "ム",
-    "en": "MU",
+    "en": "Mu",
     "ar": "مو",
     "phonetic": "/mu/",
     "example": {
@@ -431,7 +431,7 @@
   {
     "id": 34,
     "letter": "メ",
-    "en": "ME",
+    "en": "Me",
     "ar": "مي",
     "phonetic": "/me/",
     "example": {
@@ -444,7 +444,7 @@
   {
     "id": 35,
     "letter": "モ",
-    "en": "MO",
+    "en": "Mo",
     "ar": "مو",
     "phonetic": "/mo/",
     "example": {
@@ -457,7 +457,7 @@
   {
     "id": 36,
     "letter": "ヤ",
-    "en": "YA",
+    "en": "Ya",
     "ar": "يا",
     "phonetic": "/ya/",
     "example": {
@@ -470,7 +470,7 @@
   {
     "id": 37,
     "letter": "ユ",
-    "en": "YU",
+    "en": "Yu",
     "ar": "يو",
     "phonetic": "/yu/",
     "example": {
@@ -483,7 +483,7 @@
   {
     "id": 38,
     "letter": "ヨ",
-    "en": "YO",
+    "en": "Yo",
     "ar": "يو",
     "phonetic": "/yo/",
     "example": {
@@ -496,7 +496,7 @@
   {
     "id": 39,
     "letter": "ラ",
-    "en": "RA",
+    "en": "Ra",
     "ar": "را",
     "phonetic": "/ra/",
     "example": {
@@ -509,7 +509,7 @@
   {
     "id": 40,
     "letter": "リ",
-    "en": "RI",
+    "en": "Ri",
     "ar": "ري",
     "phonetic": "/ri/",
     "example": {
@@ -522,7 +522,7 @@
   {
     "id": 41,
     "letter": "ル",
-    "en": "RU",
+    "en": "Ru",
     "ar": "رو",
     "phonetic": "/ru/",
     "example": {
@@ -535,7 +535,7 @@
   {
     "id": 42,
     "letter": "レ",
-    "en": "RE",
+    "en": "Re",
     "ar": "ري",
     "phonetic": "/re/",
     "example": {
@@ -548,7 +548,7 @@
   {
     "id": 43,
     "letter": "ロ",
-    "en": "RO",
+    "en": "Ro",
     "ar": "رو",
     "phonetic": "/ro/",
     "example": {
@@ -561,7 +561,7 @@
   {
     "id": 44,
     "letter": "ワ",
-    "en": "WA",
+    "en": "Wa",
     "ar": "وا",
     "phonetic": "/wa/",
     "example": {
@@ -574,7 +574,7 @@
   {
     "id": 45,
     "letter": "ヲ",
-    "en": "WO",
+    "en": "Wo",
     "ar": "وو",
     "phonetic": "/wo/",
     "example": {

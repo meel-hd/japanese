@@ -43,7 +43,7 @@
     <!-- <p>{Hiragana[charIndex].example.ar}</p> -->
   </div>
   <div id="details">
-    <h1>{Hiragana[charIndex].en.toUpperCase()}</h1>
+    <h1>{Hiragana[charIndex].en}</h1>
     <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
     <!-- <h2>{Hiragana[charIndex].ar}</h2> -->
     <Table
