@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Arrow from "../Icons/Arrow.svelte";
+
   let opened = false;
 </script>
 
@@ -9,11 +11,7 @@
     style={opened ? "" : "margin-bottom:10px"}
   >
     <h3>Shortcuts</h3>
-    <img
-      style={opened ? "rotate: -90deg;" : "rotate: 90deg;"}
-      alt=""
-      src="assets/svg/arrow.svg"
-    />
+    <Arrow style={opened ? "rotate: -90deg;" : "rotate: 90deg;"} />
   </button>
 
   {#if opened}
@@ -60,25 +58,25 @@
 
       <h4>Arrows</h4>
       <div id="shortcut">
-        <div id="box"><img alt="" src="assets/svg/arrow.svg" /></div>
+        <div id="box"><Arrow /></div>
         <p>Next character and play sound.</p>
       </div>
       <div id="shortcut">
         <div id="box">
-          <img style="rotate: 180deg;" alt="" src="assets/svg/arrow.svg" />
+          <Arrow style="rotate: 180deg;" />
         </div>
         <p>Previous character and play sound.</p>
       </div>
       <div id="shortcut">
         <div id="box">
-          <img style="rotate: -90deg;" alt="" src="assets/svg/arrow.svg" />
+          <Arrow style="rotate: -90deg;" />
         </div>
         <p>Next character.</p>
       </div>
 
       <div id="shortcut">
         <div id="box">
-          <img style="rotate: 90deg;" alt="" src="assets/svg/arrow.svg" />
+          <Arrow style="rotate: 90deg;" />
         </div>
         <p>Previous character.</p>
       </div>
@@ -124,8 +122,5 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-  }
-  img {
-    width: 16px;
   }
 </style>

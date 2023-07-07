@@ -201,7 +201,7 @@
     left: 50%;
     padding: 20px 50px;
     border-radius: 20px;
-    background-color: white;
+    background-color: var(--bg);
     transform: translate(-50%, -50%);
     box-shadow: 3px 4px 10px 10px #00000008;
     overflow-y: scroll;

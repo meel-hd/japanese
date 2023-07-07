@@ -3,6 +3,8 @@
   import Table from "../../components/Alphabet/Chart.svelte";
   import Writing from "../../components/Alphabet/Writing.svelte";
   import KanaControls from "../../components/Keyboard/KanaControls.svelte";
+  import Sound from "../../components/Icons/Sound.svelte";
+  import Arrow from "../../components/Icons/Arrow.svelte";
   KanaControls;
   let charIndex = 0;
   function next() {
@@ -60,20 +62,17 @@
         audio.remove();
       }}
     >
-      <img alt="" src="/assets/svg/sound.svg" /></button
+      <Sound /></button
     >
     <Writing {next} char={Katakana[charIndex].letter} />
   </div>
+
   <div id="controls">
     <button on:click={back}>
-      <img
-        style="transform: rotate(180deg);"
-        alt=""
-        src="/assets/svg/arrow.svg"
-      />
+      <Arrow style="transform: rotate(180deg);" />
     </button>
     <button on:click={next}>
-      <img alt="" src="/assets/svg/arrow.svg" />
+      <Arrow />
     </button>
   </div>
   <KanaControls {next} {back} {playSound} />
@@ -132,11 +131,5 @@
 
   button:hover {
     box-shadow: 3px 4px 3px #00000010;
-  }
-  #controls button img {
-    width: 14px;
-  }
-  #details img {
-    widows: 18px;
   }
 </style>

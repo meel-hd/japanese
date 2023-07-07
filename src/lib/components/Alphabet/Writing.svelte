@@ -1,4 +1,7 @@
 <script lang="ts">
+  import Close from "../Icons/Close.svelte";
+  import Pencil from "../Icons/Pencil.svelte";
+  import Arrow from "../Icons/Arrow.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
 
   export let char: string;
@@ -21,13 +24,13 @@
     opened = !opened;
   }}
 >
-  <img id="open-img" alt="" src="/assets/svg/pencil.svg" /></button
->
+  <Pencil />
+</button>
 {#if opened}
   <div id="model">
     <div id="model-top">
       <button on:click={() => (opened = false)} id="close-btn">
-        <img width="18px" alt="" src="assets/svg/close.svg" />
+        <Close />
       </button>
     </div>
     <div id="content">
@@ -49,7 +52,7 @@
         >
         <button on:click={replay}>R</button>
         <button on:click={next}>
-          <img alt="" width="14px" src="/assets/svg/arrow.svg" />
+          <Arrow />
         </button>
       </div>
       <div class="info">
@@ -81,9 +84,6 @@
   #toggle-btn:hover {
     box-shadow: 3px 4px 3px #00000010;
   }
-  button #open-img {
-    width: 20px;
-  }
   #model {
     position: absolute;
     top: -15vh;
@@ -103,7 +103,7 @@
     padding: 20px;
   }
   #close-btn:hover {
-    background-color: white;
+    background-color: var(--bg);
   }
   #content {
     display: flex;
@@ -118,14 +118,14 @@
     right: 20vw;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--bg);
     padding: 0px 5px 15px 5px;
     border-radius: 999px;
   }
 
   .controls button:hover {
     box-shadow: 3px 4px 3px #00000010;
-    /* background-color: white; */
+    /* background-color: var(--bg); */
   }
   .info {
     position: absolute;

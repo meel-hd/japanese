@@ -5,6 +5,7 @@
   import Config from "./lib/scripts/config.svelte";
   import Tutorial from "./lib/components/Tutorial/index.svelte";
   import Toggle from "./lib/components/Keyboard/Toggle.svelte";
+  import SettingsIcon from "./lib/components/Icons/Settings.svelte";
 
   let selected: "Hira" | "Kata" | "Kanji" =
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
@@ -45,8 +46,7 @@
     <button
       class="settings-btn"
       id={settingsOpened ? "active" : ""}
-      on:click={toggleSettings}
-      ><img alt="" src="/assets/svg/settings.svg" /></button
+      on:click={toggleSettings}><SettingsIcon /></button
     >
   </header>
   {#if selected == "Hira"}
@@ -96,11 +96,11 @@
     width: 100px;
   }
   button:hover {
-    background: white;
+    background: var(--bg);
     box-shadow: 3px 4px 3px #00000010;
   }
   #active {
-    background: white;
+    background: var(--bg);
     box-shadow: 3px 4px 3px #00000010;
   }
   .settings-btn {

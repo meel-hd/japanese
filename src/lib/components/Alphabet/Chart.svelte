@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Close from "../Icons/Close.svelte";
+  import Dots from "../Icons/Dots.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
 
   let opened = false;
@@ -25,14 +27,14 @@
 
 <div>
   <button on:click={() => (opened = !opened)} id="toggle">
-    <img width="20px" alt="" src="assets/svg/dots.svg" />
+    <Dots />
   </button>
   {#if opened}
     <div id="model">
       <div id="model-top">
         <h3>{title}</h3>
         <button on:click={() => (opened = false)} id="close-btn">
-          <img width="20px" alt="" src="assets/svg/close.svg" />
+          <Close />
         </button>
       </div>
       <div id="content">
@@ -151,7 +153,7 @@
     align-items: center;
   }
   #close-btn:hover {
-    background-color: white;
+    background-color: var(--bg);
   }
   #content {
     display: grid;
@@ -173,7 +175,7 @@
   }
   #item-btn:hover {
     box-shadow: none;
-    background-color: white;
+    background-color: var(--bg);
   }
   #item-btn p {
     position: absolute;
@@ -182,7 +184,7 @@
     font-size: 10px;
   }
   .selected-item {
-    background-color: white;
+    background-color: var(--bg);
   }
   #rest-data {
     display: flex;

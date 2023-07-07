@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Close from "../Icons/Close.svelte";
+
   let opened = false;
   let preview = localStorage.getItem("font") || "Monospace";
   let selected = localStorage.getItem("font") || "Monospace";
@@ -21,7 +23,7 @@
       id="select-btn"
     >
       {#if opened}
-        <img alt="" width="20px" src="/assets/svg/close.svg" />
+        <Close />
       {:else}
         {selected}
       {/if}
@@ -89,7 +91,7 @@
     width: 95%;
     height: 30px;
     margin: 5px 10px;
-    background-color: white;
+    background-color: var(--bg);
     border-radius: 999px;
   }
   #font-select:hover {
