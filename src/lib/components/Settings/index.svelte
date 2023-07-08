@@ -40,6 +40,7 @@
   button {
     width: 50px;
     height: 50px;
+    box-shadow: none;
   }
   #container {
     padding-left: 30px;

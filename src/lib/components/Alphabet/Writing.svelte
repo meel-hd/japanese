@@ -81,6 +81,9 @@
     margin-top: 14px;
   }
 
+  #toggle-btn:hover {
+    box-shadow: 3px 4px 3px #00000010;
+  }
   #model {
     position: absolute;
     top: -15vh;
@@ -108,7 +111,7 @@
   }
   .controls {
     position: absolute;
-    top: 20vh;
+    top: 15vh;
     right: 20vw;
     display: flex;
     flex-direction: column;
@@ -119,7 +122,6 @@
 
   .controls button:hover {
     box-shadow: 3px 4px 3px #00000010;
-    /* background-color: var(--bg); */
   }
   .info {
     position: absolute;
