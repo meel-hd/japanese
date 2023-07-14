@@ -76,7 +76,7 @@
       select={(id) => (charIndex = id)}
       data={Katakana}
     />
-    <Test data={Katakana} title="Katakana Test" />
+    <Test forSet="Katakana" data={Katakana} title="Katakana Test" />
   </div>
   <KanaControls {next} {back} {playSound} />
 </main>

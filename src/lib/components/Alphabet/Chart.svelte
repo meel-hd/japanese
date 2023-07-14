@@ -11,7 +11,6 @@
     letter: string;
     en: string;
     ar: string;
-    phonetic: string;
     example: { jp: string; pronunciation: string; en: string; ar: string };
   }[];
   export let select: (id: number) => void;

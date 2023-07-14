@@ -1,6 +1,5 @@
 <script lang="ts">
   import Close from "../Icons/Close.svelte";
-  import Pencil from "../Icons/Pencil.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
   let opened = false;
 
@@ -10,15 +9,22 @@
     letter: string;
     en: string;
     ar: string;
-    phonetic: string;
     example: { jp: string; pronunciation: string; en: string; ar: string };
   }[];
   export let title: string;
-
-  // Test Props
+  export let forSet: "Hiragana" | "Katakana";
+  // Test State
   let testChar = randomTestChar(); // Main Kana for test
   let choices = randomTestChoices(); // 4 Ramji test choses
   let message: "Correct!" | " False!" | "" = "";
+  let bestScore = 0;
+  // Read best score for each character set
+  if (forSet == "Hiragana") {
+    bestScore = parseInt(localStorage.getItem("hiragana-score")) || 0;
+  } else if (forSet == "Katakana") {
+    bestScore = parseInt(localStorage.getItem("katakana-score")) || 0;
+  }
+  let score = 0;
 
   function randomTestChar() {
     return data[Math.floor(Math.random() * 46)]; // Random Char
@@ -45,13 +51,32 @@
   function check(choice: string) {
     if (choice == testChar.en) {
       message = "Correct!";
-      restart();
+      restart(); // Next
+
+      // Scoring
+      const treat = Math.floor(Math.random() * 5) + 1;
+      score = score + treat;
+      if (score > bestScore) {
+        bestScore = score;
+        // Store the score for the right set
+        if (forSet == "Hiragana") {
+          localStorage.setItem("hiragana-score", score.toString());
+        } else if (forSet == "Katakana") {
+          localStorage.setItem("katakana-score", score.toString());
+        }
+      }
     } else {
+      score--;
       message = " False!";
     }
     setTimeout(() => {
       message = "";
     }, 1000);
+  }
+
+  function done() {
+    opened = !opened;
+    score = 0;
   }
 </script>
 
@@ -67,12 +92,7 @@
   <div id="model">
     <div id="model-top">
       <h3>{title}</h3>
-      <button
-        on:click={() => {
-          opened = !opened;
-        }}
-        id="close-btn"
-      >
+      <button on:click={done} id="close-btn">
         <Close />
       </button>
     </div>
@@ -81,6 +101,16 @@
       <p style={message == "Correct!" ? "color: lime;" : "color:orangered;"}>
         {message}
       </p>
+      <div id="score">
+        {#if score < bestScore}
+          <h3>
+            Score: {score}
+          </h3>
+          <h4>Best: {bestScore}</h4>
+        {:else}
+          <h3 style="color: var(--primary);">New Record: {score}</h3>
+        {/if}
+      </div>
       <h1>
         {testChar.letter}
       </h1>
@@ -95,7 +125,7 @@
     </div>
   </div>
 {/if}
-<Toggle key="t" toggle={() => (opened = !opened)} />
+<Toggle key="t" toggle={done} />
 
 <style>
   button {
@@ -138,6 +168,16 @@
     justify-content: center;
     align-items: center;
     min-height: 70vh;
+  }
+  #score {
+    position: absolute;
+    bottom: 10vh;
+    left: 10vw;
+  }
+  #score h4 {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-size: small;
   }
   #content a {
     text-decoration: none;

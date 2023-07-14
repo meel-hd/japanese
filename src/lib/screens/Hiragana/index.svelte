@@ -66,7 +66,7 @@
       select={(id) => (charIndex = id)}
       data={Hiragana}
     />
-    <Test data={Hiragana} title="Hiragana Test" />
+    <Test forSet="Hiragana" data={Hiragana} title="Hiragana Test" />
   </div>
   <KanaControls {next} {back} {playSound} />
 </main>
