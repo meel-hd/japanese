@@ -1,6 +1,7 @@
 <script lang="ts">
   import Close from "../Icons/Close.svelte";
   import Pencil from "../Icons/Pencil.svelte";
+  import Toggle from "../Keyboard/Toggle.svelte";
   let opened = false;
 
   //   Props
@@ -94,6 +95,7 @@
     </div>
   </div>
 {/if}
+<Toggle key="t" toggle={() => (opened = !opened)} />
 
 <style>
   button {
@@ -104,7 +106,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 14px;
   }
 
   #toggle-btn {

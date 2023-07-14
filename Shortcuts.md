@@ -9,10 +9,11 @@ documentation of keyboard shortcuts for the app.
 ## Toggles
 1. F: Toggle Settings.
 2. G: Toggle Alphabet Chart.
-3. H: Toggle Writing Tutorial.
-4. R: Restart Writing Tutorial.
-5. E: Open tutorial.
-6. Space: Play Sound.
+3. T: Toggle Test.
+4. H: Toggle Writing Tutorial.
+5. R: Restart Writing Tutorial.
+6. E: Open tutorial.
+7. Space: Play Sound.
 
 ## Arrows
 1. Right Arrow: Next character and play sound.

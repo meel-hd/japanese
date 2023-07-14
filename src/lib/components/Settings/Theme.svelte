@@ -47,6 +47,13 @@
     >
   </div>
 </div>
+<div>
+  <h3>Language</h3>
+  <p>
+    Add internationalization for 10 languages, and data for secondary examples
+    in those languages.
+  </p>
+</div>
 
 <style>
   #toggle {

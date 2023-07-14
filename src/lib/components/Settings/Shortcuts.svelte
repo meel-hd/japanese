@@ -40,6 +40,10 @@
         <p>Toggle alphabet chart.</p>
       </div>
       <div id="shortcut">
+        <div id="box">T</div>
+        <p>Toggle Test.</p>
+      </div>
+      <div id="shortcut">
         <div id="box">H</div>
         <p>Toggle writing tutorial.</p>
       </div>

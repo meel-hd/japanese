@@ -42,18 +42,12 @@
     </h1>
     <p id="pronc">{Katakana[charIndex].example.pronunciation}</p>
     <p>{Katakana[charIndex].example.en}</p>
-    <!-- <p>{Katakana[charIndex].example.ar}</p> -->
+    <p>{Katakana[charIndex].example.ar}</p>
   </div>
   <div id="details">
     <h1>{Katakana[charIndex].en}</h1>
     <!-- <p id="phonetic">{Katakana[charIndex].phonetic}</p> -->
     <!-- <h2>{Katakana[charIndex].ar}</h2> -->
-    <Table
-      selected={charIndex}
-      title={"Katakana Chart"}
-      select={(id) => (charIndex = id)}
-      data={Katakana}
-    />
     <button
       on:click={() => {
         const audio = new Audio(
@@ -77,6 +71,12 @@
     </button>
   </div>
   <div id="right-controls">
+    <Table
+      selected={charIndex}
+      title={"Katakana Chart"}
+      select={(id) => (charIndex = id)}
+      data={Katakana}
+    />
     <Test data={Katakana} title="Katakana Test" />
   </div>
   <KanaControls {next} {back} {playSound} />
@@ -127,7 +127,6 @@
     top: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
   #controls button,
   #details button {

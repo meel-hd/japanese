@@ -41,18 +41,12 @@
     </h1>
     <p id="pronc">{Hiragana[charIndex].example.pronunciation}</p>
     <p>{Hiragana[charIndex].example.en}</p>
-    <!-- <p>{Hiragana[charIndex].example.ar}</p> -->
+    <p>{Hiragana[charIndex].example.ar}</p>
   </div>
   <div id="details">
     <h1>{Hiragana[charIndex].en}</h1>
     <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
     <!-- <h2>{Hiragana[charIndex].ar}</h2> -->
-    <Table
-      selected={charIndex}
-      title={"Hiragana Chart"}
-      select={(id) => (charIndex = id)}
-      data={Hiragana}
-    />
     <button on:click={playSound}>
       <Sound />
     </button>
@@ -67,6 +61,12 @@
     </button>
   </div>
   <div id="right-controls">
+    <Table
+      selected={charIndex}
+      title={"Hiragana Chart"}
+      select={(id) => (charIndex = id)}
+      data={Hiragana}
+    />
     <Test data={Hiragana} title="Hiragana Test" />
   </div>
   <KanaControls {next} {back} {playSound} />
@@ -117,7 +117,6 @@
     top: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
   #controls button,
   #details button {

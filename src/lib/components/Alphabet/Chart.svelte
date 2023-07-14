@@ -129,15 +129,15 @@
     height: 50px;
     padding: 10px;
     background-color: var(--light-primary);
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
   #toggle:hover {
     box-shadow: 3px 4px 3px #00000010;
   }
   #model {
     position: absolute;
-    top: 5vh;
-    right: 9vw;
+    top: 3vh;
+    left: 7vw;
     width: 50vw;
     height: 60vh;
     border-radius: 20px;
