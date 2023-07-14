@@ -4,7 +4,6 @@
     "letter": "あ",
     "en": "A",
     "ar": "أ",
-    "phonetic": "/a/",
     "example": {
       "jp": "ありがとう",
       "pronunciation": "Arigato",
@@ -17,7 +16,6 @@
     "letter": "い",
     "en": "I",
     "ar": "إ",
-    "phonetic": "/i/",
     "example": {
       "jp": "いちご",
       "pronunciation": "Ichigo",
@@ -30,7 +28,6 @@
     "letter": "う",
     "en": "U",
     "ar": "أو",
-    "phonetic": "/u/",
     "example": {
       "jp": "うさぎ",
       "pronunciation": "Usagi",
@@ -43,7 +40,6 @@
     "letter": "え",
     "en": "E",
     "ar": "إي",
-    "phonetic": "/e/",
     "example": {
       "jp": "えんぴつ",
       "pronunciation": "Enpitsu",
@@ -56,7 +52,6 @@
     "letter": "お",
     "en": "O",
     "ar": "أو",
-    "phonetic": "/o/",
     "example": {
       "jp": "おはよう",
       "pronunciation": "Ohayou",
@@ -69,7 +64,6 @@
     "letter": "か",
     "en": "Ka",
     "ar": "كا",
-    "phonetic": "/ka/",
     "example": {
       "jp": "かばん",
       "pronunciation": "Kaban",
@@ -82,7 +76,6 @@
     "letter": "き",
     "en": "Ki",
     "ar": "كي",
-    "phonetic": "/ki/",
     "example": {
       "jp": "きつね",
       "pronunciation": "Kitsune",
@@ -95,7 +88,6 @@
     "letter": "く",
     "en": "Ku",
     "ar": "كو",
-    "phonetic": "/ku/",
     "example": {
       "jp": "くつした",
       "pronunciation": "Kutsushita",
@@ -108,7 +100,6 @@
     "letter": "け",
     "en": "Ke",
     "ar": "كي",
-    "phonetic": "/ke/",
     "example": {
       "jp": "けん",
       "pronunciation": "Ken",
@@ -121,7 +112,6 @@
     "letter": "こ",
     "en": "Ko",
     "ar": "كو",
-    "phonetic": "/ko/",
     "example": {
       "jp": "こども",
       "pronunciation": "Kodomo",
@@ -134,7 +124,6 @@
     "letter": "さ",
     "en": "Sa",
     "ar": "سا",
-    "phonetic": "/sa/",
     "example": {
       "jp": "さかな",
       "pronunciation": "Sakana",
@@ -147,7 +136,6 @@
     "letter": "し",
     "en": "Shi",
     "ar": "شي",
-    "phonetic": "/shi/",
     "example": {
       "jp": "しんぶん",
       "pronunciation": "Shinbun",
@@ -160,7 +148,6 @@
     "letter": "す",
     "en": "Su",
     "ar": "سو",
-    "phonetic": "/su/",
     "example": {
       "jp": "すし",
       "pronunciation": "Sushi",
@@ -173,7 +160,6 @@
     "letter": "せ",
     "en": "Se",
     "ar": "سي",
-    "phonetic": "/se/",
     "example": {
       "jp": "せんたく",
       "pronunciation": "Sentaku",
@@ -186,7 +172,6 @@
     "letter": "そ",
     "en": "So",
     "ar": "سو",
-    "phonetic": "/so/",
     "example": {
       "jp": "そら",
       "pronunciation": "Sora",
@@ -199,7 +184,6 @@
     "letter": "た",
     "en": "Ta",
     "ar": "تا",
-    "phonetic": "/ta/",
     "example": {
       "jp": "たまご",
       "pronunciation": "Tamago",
@@ -212,7 +196,6 @@
     "letter": "ち",
     "en": "Chi",
     "ar": "تشي",
-    "phonetic": "/chi/",
     "example": {
       "jp": "ちいさな",
       "pronunciation": "Chiisana",
@@ -225,7 +208,6 @@
     "letter": "つ",
     "en": "Tsu",
     "ar": "تسو",
-    "phonetic": "/tsu/",
     "example": {
       "jp": "つくえ",
       "pronunciation": "Tsukue",
@@ -238,7 +220,6 @@
     "letter": "て",
     "en": "Te",
     "ar": "تي",
-    "phonetic": "/te/",
     "example": {
       "jp": "てがみ",
       "pronunciation": "Tegami",
@@ -251,7 +232,6 @@
     "letter": "と",
     "en": "To",
     "ar": "تو",
-    "phonetic": "/to/",
     "example": {
       "jp": "とけい",
       "pronunciation": "Tokei",
@@ -264,7 +244,6 @@
     "letter": "な",
     "en": "Na",
     "ar": "نا",
-    "phonetic": "/na/",
     "example": {
       "jp": "なつ",
       "pronunciation": "Natsu",
@@ -277,7 +256,6 @@
     "letter": "に",
     "en": "Ni",
     "ar": "ني",
-    "phonetic": "/ni/",
     "example": {
       "jp": "にんじん",
       "pronunciation": "Ninjin",
@@ -290,7 +268,6 @@
     "letter": "ぬ",
     "en": "Nu",
     "ar": "نو",
-    "phonetic": "/nu/",
     "example": {
       "jp": "ぬいぐるみ",
       "pronunciation": "Nuigurumi",
@@ -303,7 +280,6 @@
     "letter": "ね",
     "en": "Ne",
     "ar": "ني",
-    "phonetic": "/ne/",
     "example": {
       "jp": "ねこ",
       "pronunciation": "Neko",
@@ -316,7 +292,6 @@
     "letter": "の",
     "en": "No",
     "ar": "نو",
-    "phonetic": "/no/",
     "example": {
       "jp": "のり",
       "pronunciation": "Nori",
@@ -329,7 +304,6 @@
     "letter": "は",
     "en": "Ha",
     "ar": "ها",
-    "phonetic": "/ha/",
     "example": {
       "jp": "はな",
       "pronunciation": "Hana",
@@ -342,7 +316,6 @@
     "letter": "ひ",
     "en": "Hi",
     "ar": "هي",
-    "phonetic": "/hi/",
     "example": {
       "jp": "ひる",
       "pronunciation": "Hiru",
@@ -355,7 +328,6 @@
     "letter": "ふ",
     "en": "Fu",
     "ar": "فو",
-    "phonetic": "/fu/",
     "example": {
       "jp": "ふくろ",
       "pronunciation": "Fukuro",
@@ -368,7 +340,6 @@
     "letter": "へ",
     "en": "He",
     "ar": "هي",
-    "phonetic": "/he/",
     "example": {
       "jp": "へや",
       "pronunciation": "Heya",
@@ -381,7 +352,6 @@
     "letter": "ほ",
     "en": "Ho",
     "ar": "هو",
-    "phonetic": "/ho/",
     "example": {
       "jp": "ほん",
       "pronunciation": "Hon",
@@ -394,7 +364,6 @@
     "letter": "ま",
     "en": "Ma",
     "ar": "ما",
-    "phonetic": "/ma/",
     "example": {
       "jp": "まど",
       "pronunciation": "Mado",
@@ -407,7 +376,6 @@
     "letter": "み",
     "en": "Mi",
     "ar": "مي",
-    "phonetic": "/mi/",
     "example": {
       "jp": "みず",
       "pronunciation": "Mizu",
@@ -420,7 +388,6 @@
     "letter": "む",
     "en": "Mu",
     "ar": "مو",
-    "phonetic": "/mu/",
     "example": {
       "jp": "むぎ",
       "pronunciation": "Mugi",
@@ -433,7 +400,6 @@
     "letter": "め",
     "en": "Me",
     "ar": "مي",
-    "phonetic": "/me/",
     "example": {
       "jp": "めがね",
       "pronunciation": "Megane",
@@ -446,7 +412,6 @@
     "letter": "も",
     "en": "Mo",
     "ar": "مو",
-    "phonetic": "/mo/",
     "example": {
       "jp": "もの",
       "pronunciation": "Mono",
@@ -459,7 +424,6 @@
     "letter": "や",
     "en": "Ya",
     "ar": "يا",
-    "phonetic": "/ya/",
     "example": {
       "jp": "やま",
       "pronunciation": "Yama",
@@ -472,7 +436,6 @@
     "letter": "ゆ",
     "en": "Yu",
     "ar": "يو",
-    "phonetic": "/yu/",
     "example": {
       "jp": "ゆうがた",
       "pronunciation": "Yūgata",
@@ -485,7 +448,6 @@
     "letter": "よ",
     "en": "Yo",
     "ar": "يو",
-    "phonetic": "/yo/",
     "example": {
       "jp": "よる",
       "pronunciation": "Yoru",
@@ -498,7 +460,6 @@
     "letter": "ら",
     "en": "Ra",
     "ar": "را",
-    "phonetic": "/ra/",
     "example": {
       "jp": "らくだ",
       "pronunciation": "Rakuda",
@@ -511,7 +472,6 @@
     "letter": "り",
     "en": "Ri",
     "ar": "ري",
-    "phonetic": "/ri/",
     "example": {
       "jp": "りんご",
       "pronunciation": "Ringo",
@@ -524,7 +484,6 @@
     "letter": "る",
     "en": "Ru",
     "ar": "رو",
-    "phonetic": "/ru/",
     "example": {
       "jp": "るすばん",
       "pronunciation": "Rusuban",
@@ -537,7 +496,6 @@
     "letter": "れ",
     "en": "Re",
     "ar": "ري",
-    "phonetic": "/re/",
     "example": {
       "jp": "れきし",
       "pronunciation": "Rekishi",
@@ -550,7 +508,6 @@
     "letter": "ろ",
     "en": "Ro",
     "ar": "رو",
-    "phonetic": "/ro/",
     "example": {
       "jp": "ろうそく",
       "pronunciation": "Rōsoku",
@@ -563,7 +520,6 @@
     "letter": "わ",
     "en": "Wa",
     "ar": "وا",
-    "phonetic": "/wa/",
     "example": {
       "jp": "わたし",
       "pronunciation": "Watashi",
@@ -576,7 +532,6 @@
     "letter": "を",
     "en": "Wo",
     "ar": "و",
-    "phonetic": "/wo/",
     "example": {
       "jp": "を",
       "pronunciation": "Wo",
@@ -589,7 +544,6 @@
     "letter": "ん",
     "en": "N",
     "ar": "ن",
-    "phonetic": "/n/",
     "example": {
       "jp": "にんげん",
       "pronunciation": "Ningen",

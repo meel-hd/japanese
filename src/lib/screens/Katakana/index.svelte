@@ -46,8 +46,7 @@
   </div>
   <div id="details">
     <h1>{Katakana[charIndex].en}</h1>
-    <!-- <p id="phonetic">{Katakana[charIndex].phonetic}</p> -->
-    <!-- <h2>{Katakana[charIndex].ar}</h2> -->
+    <h3>{Katakana[charIndex].ar}</h3>
     <button
       on:click={() => {
         const audio = new Audio(
@@ -112,6 +111,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  #details h3 {
+    margin-left: 10px;
+    margin-top: -10px;
+    color: darkgrey;
   }
   #controls {
     position: absolute;

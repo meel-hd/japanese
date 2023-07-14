@@ -45,8 +45,7 @@
   </div>
   <div id="details">
     <h1>{Hiragana[charIndex].en}</h1>
-    <!-- <p id="phonetic">{Hiragana[charIndex].phonetic}</p> -->
-    <!-- <h2>{Hiragana[charIndex].ar}</h2> -->
+    <h3>{Hiragana[charIndex].ar}</h3>
     <button on:click={playSound}>
       <Sound />
     </button>
@@ -102,6 +101,12 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+
+  #details h3 {
+    margin-left: 10px;
+    margin-top: -10px;
+    color: darkgrey;
   }
   #controls {
     position: absolute;
