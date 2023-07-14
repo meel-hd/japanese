@@ -5,6 +5,7 @@
   import KanaControls from "../../components/Keyboard/KanaControls.svelte";
   import Sound from "../../components/Icons/Sound.svelte";
   import Arrow from "../../components/Icons/Arrow.svelte";
+  import Test from "../../components/Alphabet/Test.svelte";
   let charIndex = 0;
   function next() {
     if (charIndex < 45) {
@@ -65,6 +66,9 @@
       <Arrow />
     </button>
   </div>
+  <div id="right-controls">
+    <Test data={Hiragana} title="Hiragana Test" />
+  </div>
   <KanaControls {next} {back} {playSound} />
 </main>
 
@@ -107,7 +111,14 @@
     flex-direction: row;
     gap: 20px;
   }
-
+  #right-controls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
   #controls button,
   #details button {
     width: 50px;
