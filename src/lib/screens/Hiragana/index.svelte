@@ -6,7 +6,10 @@
   import Sound from "../../components/Icons/Sound.svelte";
   import Arrow from "../../components/Icons/Arrow.svelte";
   import Test from "../../components/Alphabet/Test.svelte";
+  import useLocalization from "../../../hooks/locales/localisation";
+
   let charIndex = 0;
+  const {translate, lang} = useLocalization();
   function next() {
     if (charIndex < 45) {
       charIndex++;
@@ -62,11 +65,11 @@
   <div id="right-controls">
     <Table
       selected={charIndex}
-      title={"Hiragana Chart"}
+      title={translate('hiragana-chart')}
       select={(id) => (charIndex = id)}
       data={Hiragana}
     />
-    <Test forSet="Hiragana" data={Hiragana} title="Hiragana Test" />
+    <Test forSet="Hiragana" data={Hiragana} title={translate("hiragana-test")} />
   </div>
   <KanaControls {next} {back} {playSound} />
 </main>

@@ -4,6 +4,7 @@
   import Tutorial from "./Tutorial.svelte";
   import Close from "../Icons/Close.svelte";
   import Theme from "./Theme.svelte";
+  import Language from "./Language.svelte";
 
   export let close;
 </script>
@@ -15,6 +16,7 @@
   </div>
   <div id="container">
     <Theme />
+    <Language />
     <Fonts />
     <Tutorial />
     <Shortcuts />

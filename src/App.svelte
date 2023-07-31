@@ -6,11 +6,13 @@
   import Tutorial from "./lib/components/Tutorial/index.svelte";
   import Toggle from "./lib/components/Keyboard/Toggle.svelte";
   import SettingsIcon from "./lib/components/Icons/Settings.svelte";
+  import useLocalization from "./hooks/locales/localisation";
 
   let selected: "Hira" | "Kata" | "Kanji" =
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
 
   let settingsOpened = false;
+  let {translate, lang}= useLocalization();
 
   function selectHira() {
     selected = "Hira";
@@ -54,7 +56,7 @@
   {:else if selected == "Kata"}
     <Katakana />
   {:else if selected == "Kanji"}
-    <h1>Coming Soon...</h1>
+    <h1>{translate('coming-soon')}</h1>
   {/if}
 
   {#if settingsOpened}

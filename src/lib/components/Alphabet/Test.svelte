@@ -1,8 +1,10 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
   import Close from "../Icons/Close.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
-  let opened = false;
 
+  let opened = false;
+  const {translate} = useLocalization()
   //   Props
   export let data: {
     id: number;
@@ -97,18 +99,18 @@
       </button>
     </div>
     <div id="content">
-      <a on:click={restart} href="/#">skip</a>
+      <a on:click={restart} href="/#">{translate('skip')}</a>
       <p style={message == "Correct!" ? "color: lime;" : "color:orangered;"}>
         {message}
       </p>
       <div id="score">
         {#if score < bestScore}
           <h3>
-            Score: {score}
+            {translate('score')} {score}
           </h3>
-          <h4>Best: {bestScore}</h4>
+          <h4>{translate('best')} {bestScore}</h4>
         {:else}
-          <h3 style="color: var(--primary);">New Record: {score}</h3>
+          <h3 style="color: var(--primary);">{translate('new-record')} {score}</h3>
         {/if}
       </div>
       <h1>

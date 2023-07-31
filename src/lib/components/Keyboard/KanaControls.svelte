@@ -7,6 +7,7 @@
 
   const HandleKeyboard = (e) => {
     if (e.code == "Space") {
+      e.preventDefault();
       playSound();
     }
     if (e.key == "ArrowRight") {

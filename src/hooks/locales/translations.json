@@ -1,0 +1,20 @@
+{
+    "en": {
+        "coming-soon": "Coming Soon...",
+        "hiragana-chart": "Hiragana Chart",
+        "hiragana-test": "Hiragana Test",
+        "skip": "skip",
+        "score": "Score:",
+        "best": "Best:",
+        "new-record": "New Record:"
+    },
+    "ar": {
+        "coming-soon": "...قريبا",
+        "hiragana-chart": "لوحة الهيراجانا",
+        "hiragana-test": "إختبار الهيراجانا",
+        "skip": "تخطي",
+        "score": "النقطة:",
+        "best": "الأفضل:",
+        "new-record": "أعلى نقطة:"
+    }
+}
