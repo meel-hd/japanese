@@ -3,12 +3,15 @@
   import Pencil from "../Icons/Pencil.svelte";
   import Arrow from "../Icons/Arrow.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
+  import useLocalization from "../../../hooks/locales/localisation";
 
   export let char: string;
   export let next: () => void;
   let opened = false;
   let refrech = false;
   let infoIsVisible = false;
+
+  const {translate} = useLocalization()
 
   function replay() {
     refrech = true;
@@ -58,8 +61,7 @@
       <div class="info">
         {#if infoIsVisible}
           <p>
-            Grab a pencil and a peice of paper and follow writing the strokes to
-            form the letter.
+            {translate('writing-tutorial-info')}
           </p>
         {/if}
       </div>

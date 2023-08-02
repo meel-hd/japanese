@@ -1,20 +1,32 @@
 {
     "en": {
+        "hiragana": "Hiragana",
+        "katakana": "Katakana",
+        "kanji": "Kanji",
         "coming-soon": "Coming Soon...",
         "hiragana-chart": "Hiragana Chart",
         "hiragana-test": "Hiragana Test",
+        "katakana-chart": "Katakana Chart",
+        "katakana-test": "Katakana Test",
         "skip": "skip",
         "score": "Score:",
         "best": "Best:",
-        "new-record": "New Record:"
+        "new-record": "New Record:",
+        "writing -tutorial-info": "Grab a pencil and a peice of paper and follow writing the strokes to form the letter."
     },
     "ar": {
+        "hiragana": "هيراجانا",
+        "katakana": "كتاكانا",
+        "kanji": "كانجي",
         "coming-soon": "...قريبا",
         "hiragana-chart": "لوحة الهيراجانا",
         "hiragana-test": "إختبار الهيراجانا",
+        "katakana-chart": "لوحة الكتاكانا",
+        "katakana-test": "إختبار الكتاكانا ",
         "skip": "تخطي",
         "score": "النقطة:",
         "best": "الأفضل:",
-        "new-record": "أعلى نقطة:"
+        "new-record": "أعلى نقطة:",
+        "writing-tutorial-info": "أحضر قلماً وقطعة من الورق وتابع كتابة الخطوط"
     }
 }

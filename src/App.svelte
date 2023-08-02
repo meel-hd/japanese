@@ -12,7 +12,7 @@
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
 
   let settingsOpened = false;
-  let {translate, lang}= useLocalization();
+  let {translate}= useLocalization();
 
   function selectHira() {
     selected = "Hira";
@@ -36,14 +36,11 @@
   <Tutorial />
   <header>
     <button id={selected == "Hira" ? "active" : ""} on:click={selectHira}
-      >Hiragana</button
-    >
+      >{translate('hiragana')}</button>
     <button id={selected == "Kata" ? "active" : ""} on:click={selectKata}
-      >Katakana</button
-    >
+      >{translate('katakana')}</button>
     <button id={selected == "Kanji" ? "active" : ""} on:click={selectKanji}
-      >Kanji</button
-    >
+      >{translate('kanji')}</button>
 
     <button
       class="settings-btn"
