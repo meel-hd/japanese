@@ -10,6 +10,7 @@
 
   let charIndex = 0;
   const {translate, lang} = useLocalization();
+
   function next() {
     if (charIndex < 45) {
       charIndex++;
@@ -43,12 +44,10 @@
       {Hiragana[charIndex].example.jp.slice(1)}
     </h1>
     <p id="pronc">{Hiragana[charIndex].example.pronunciation}</p>
-    <p>{Hiragana[charIndex].example.en}</p>
-    <p>{Hiragana[charIndex].example.ar}</p>
+    <p>{Hiragana[charIndex].example[lang]}</p>
   </div>
   <div id="details">
-    <h1>{Hiragana[charIndex].en}</h1>
-    <h3>{Hiragana[charIndex].ar}</h3>
+    <h1>{Hiragana[charIndex][lang]}</h1>
     <button on:click={playSound}>
       <Sound />
     </button>
@@ -104,12 +103,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-
-  #details h3 {
-    margin-left: 10px;
-    margin-top: -10px;
-    color: darkgrey;
   }
   #controls {
     position: absolute;

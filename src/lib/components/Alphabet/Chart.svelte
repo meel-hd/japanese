@@ -1,9 +1,11 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
   import Close from "../Icons/Close.svelte";
   import Dots from "../Icons/Dots.svelte";
   import Toggle from "../Keyboard/Toggle.svelte";
 
   let opened = false;
+  const { lang } = useLocalization();
 
   //   Props
   export let data: {
@@ -47,7 +49,7 @@
             id="item-btn"
           >
             {char.letter}
-            <p>{char.en}</p>
+            <p>{char[lang]}</p>
           </button>
         {/each}
       </div>
@@ -62,7 +64,7 @@
             id="item-btn"
           >
             {char.letter}
-            <p>{char.en}</p>
+            <p>{char[lang]}</p>
           </button>
         {/each}
       </div>
@@ -77,7 +79,7 @@
             id="item-btn"
           >
             {char.letter}
-            <p>{char.en}</p>
+            <p>{char[lang]}</p>
           </button>
         {/each}
       </div>
@@ -93,7 +95,7 @@
             id="item-btn"
           >
             {char.letter}
-            <p>{char.en}</p>
+            <p>{char[lang]}</p>
           </button>
         {/each}
       </div>
@@ -109,7 +111,7 @@
             id="item-btn"
           >
             {char.letter}
-            <p>{char.en}</p>
+            <p>{char[lang]}</p>
           </button>
         {/each}
       </div>

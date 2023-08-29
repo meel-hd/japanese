@@ -9,7 +9,7 @@
   import useLocalization from "../../../hooks/locales/localisation";
 
   let charIndex = 0;
-  const {translate} = useLocalization()
+  const {translate, lang} = useLocalization()
   function next() {
     if (charIndex < 45) {
       charIndex++;
@@ -47,8 +47,7 @@
     <p>{Katakana[charIndex].example.ar}</p>
   </div>
   <div id="details">
-    <h1>{Katakana[charIndex].en}</h1>
-    <h3>{Katakana[charIndex].ar}</h3>
+    <h1>{Katakana[charIndex][lang]}</h1>
     <button
       on:click={() => {
         const audio = new Audio(
@@ -113,11 +112,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-  }
-  #details h3 {
-    margin-left: 10px;
-    margin-top: -10px;
-    color: darkgrey;
   }
   #controls {
     position: absolute;

@@ -1,5 +1,12 @@
 <script lang="ts">
+  import useLocalization from "../../hooks/locales/localisation";
   import autoTheme from "./autoTheme";
+
+  // Fix text size in arabic
+  const { lang } = useLocalization();
+  if (lang == "ar") {
+    document.body.style.fontWeight = "bold";
+  }
 
   // Read preconfigured font
   const font = localStorage.getItem("font") || "Monospace";

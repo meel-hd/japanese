@@ -4,7 +4,7 @@
   import Toggle from "../Keyboard/Toggle.svelte";
 
   let opened = false;
-  const {translate} = useLocalization()
+  const {translate, lang} = useLocalization()
   //   Props
   export let data: {
     id: number;
@@ -33,14 +33,14 @@
   }
   function randomTestChoices() {
     // Create 4 random choises
-    const item1 = randomTestChar().en;
-    const item2 = randomTestChar().en;
-    const item3 = randomTestChar().en;
-    const item4 = randomTestChar().en;
+    const item1 = randomTestChar()[lang]
+    const item2 = randomTestChar()[lang]
+    const item3 = randomTestChar()[lang]
+    const item4 = randomTestChar()[lang]
     let randChoises = [item1, item2, item3, item4];
 
     // Add the correct choice randomly
-    randChoises[Math.floor(Math.random() * 4)] = testChar.en;
+    randChoises[Math.floor(Math.random() * 4)] = testChar[lang]
 
     return randChoises;
   }
@@ -51,7 +51,7 @@
   }
 
   function check(choice: string) {
-    if (choice == testChar.en) {
+    if (choice == testChar[lang]) {
       message = "Correct!";
       restart(); // Next
 
