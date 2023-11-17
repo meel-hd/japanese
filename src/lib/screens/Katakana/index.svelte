@@ -43,8 +43,7 @@
       {Katakana[charIndex].example.jp.slice(1)}
     </h1>
     <p id="pronc">{Katakana[charIndex].example.pronunciation}</p>
-    <p>{Katakana[charIndex].example.en}</p>
-    <p>{Katakana[charIndex].example.ar}</p>
+    <p>{Katakana[charIndex].example[lang]}</p>
   </div>
   <div id="details">
     <h1>{Katakana[charIndex][lang]}</h1>

@@ -45,7 +45,7 @@
     <button
       class="settings-btn"
       id={settingsOpened ? "active" : ""}
-      on:click={toggleSettings}> Settings <SettingsIcon /></button
+      on:click={toggleSettings}> {translate('settings')} <SettingsIcon /></button
     >
   </header>
   {#if selected == "Hira"}

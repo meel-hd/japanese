@@ -1,4 +1,5 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
   import autoTheme from "../../scripts/autoTheme";
 
   let theme = localStorage.getItem("theme") || "auto"; // default: auto
@@ -22,28 +23,29 @@
       }, 1100);
     }
   }
+  const { translate } = useLocalization();
 </script>
 
 <div>
-  <h3>Theme</h3>
+  <h3>{translate("theme")}</h3>
   <div id="toggle">
     <button
       id={theme == "auto" ? "active" : ""}
       on:click={() => {
         changeThemeTo("auto");
-      }}>System</button
+      }}>{translate("system")}</button
     >
     <button
       id={theme == "light" ? "active" : ""}
       on:click={() => {
         changeThemeTo("light");
-      }}>Light</button
+      }}>{translate("light")}</button
     >
     <button
       id={theme == "dark" ? "active" : ""}
       on:click={() => {
         changeThemeTo("dark");
-      }}>Dark</button
+      }}>{translate("dark")}</button
     >
   </div>
 </div>

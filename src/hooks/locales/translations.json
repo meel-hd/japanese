@@ -12,7 +12,17 @@
         "score": "Score:",
         "best": "Best:",
         "new-record": "New Record:",
-        "writing -tutorial-info": "Grab a pencil and a peice of paper and follow writing the strokes to form the letter."
+        "writing -tutorial-info": "Grab a pencil and a peice of paper and follow writing the strokes to form the letter.",
+        "settings": "Settings",
+        "theme": "Theme",
+        "system": "System",
+        "light": "Light",
+        "dark": "Dark",
+        "language": "Language",
+        "typeface": "Typeface",
+        "tutorial": "Tutorial",
+        "show_next_time": "Show next time?",
+        "shortcuts": "Shortcuts"
     },
     "ar": {
         "hiragana": "هيراجانا",
@@ -27,6 +37,16 @@
         "score": "النقطة:",
         "best": "الأفضل:",
         "new-record": "أعلى نقطة:",
-        "writing-tutorial-info": "أحضر قلماً وقطعة من الورق وتابع كتابة الخطوط"
+        "writing-tutorial-info": "أحضر قلماً وقطعة من الورق وتابع كتابة الخطوط",
+        "settings": "الإعدادات",
+        "theme": "سمة",
+        "system": "النظام",
+        "light": "فاتح",
+        "dark": "غامق",
+        "language": "اللغة",
+        "typeface": "الخط",
+        "tutorial": "درس البداية",
+        "show_next_time": "أظهر المرة القادمة",
+        "shortcuts": "إختصارات"
     }
 }

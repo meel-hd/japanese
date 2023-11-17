@@ -5,13 +5,15 @@
   import Close from "../Icons/Close.svelte";
   import Theme from "./Theme.svelte";
   import Language from "./Language.svelte";
+  import useLocalization from "../../../hooks/locales/localisation";
 
   export let close;
+  const { translate } = useLocalization();
 </script>
 
 <section class="themed-shadow" id="super-special-settings-id">
   <div id="settings-head">
-    <h2>Settings</h2>
+    <h2>{translate("settings")}</h2>
     <button on:click={close}><Close /> </button>
   </div>
   <div id="container">

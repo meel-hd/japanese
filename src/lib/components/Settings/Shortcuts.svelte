@@ -1,7 +1,9 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
   import Arrow from "../Icons/Arrow.svelte";
 
   let opened = false;
+  const { translate } = useLocalization();
 </script>
 
 <div>
@@ -10,7 +12,7 @@
     id="top"
     style={opened ? "" : "margin-bottom:10px"}
   >
-    <h3>Shortcuts</h3>
+    <h3>{translate("shortcuts")}</h3>
     <Arrow style={opened ? "rotate: -90deg;" : "rotate: 90deg;"} />
   </button>
 

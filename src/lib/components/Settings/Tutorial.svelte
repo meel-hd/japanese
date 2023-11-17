@@ -1,11 +1,14 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
+
   let showNextTime = localStorage.getItem("hide-tutorial") != "yes";
+  const { translate } = useLocalization();
 </script>
 
 <div>
-  <h3>Tutorial</h3>
+  <h3>{translate("tutorial")}</h3>
   <div id="container">
-    <label for="intro-settings">Show next time?</label>
+    <label for="intro-settings">{translate("show_next_time")}</label>
     <input
       checked={showNextTime}
       on:change={(e) => {

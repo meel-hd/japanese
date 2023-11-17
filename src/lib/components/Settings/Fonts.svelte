@@ -1,4 +1,5 @@
 <script lang="ts">
+  import useLocalization from "../../../hooks/locales/localisation";
   import Close from "../Icons/Close.svelte";
 
   let opened = false;
@@ -10,10 +11,11 @@
     document.body.style.fontFamily = font;
     localStorage.setItem("font", font);
   }
+  const { translate } = useLocalization();
 </script>
 
 <div>
-  <h3>Typeface</h3>
+  <h3>{translate("typeface")}</h3>
   <div id="container">
     <button
       on:click={() => {
