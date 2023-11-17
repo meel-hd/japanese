@@ -11,7 +11,7 @@
   let selected: "Hira" | "Kata" | "Kanji" =
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
 
-  let settingsOpened = false;
+  let settingsOpened = localStorage.getItem("hide-tutorial") != "yes";
   let {translate}= useLocalization();
 
   function selectHira() {

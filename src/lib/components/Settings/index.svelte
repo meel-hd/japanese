@@ -17,8 +17,8 @@
     <button on:click={close}><Close /> </button>
   </div>
   <div id="container">
-    <Theme />
     <Language />
+    <Theme />
     <Fonts />
     <Tutorial />
     <Shortcuts />
