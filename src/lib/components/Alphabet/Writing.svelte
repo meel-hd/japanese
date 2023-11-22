@@ -130,7 +130,7 @@
     left: 5vw;
     bottom: 20vh;
     width: 30vw;
-    font-size: 12px;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
   }

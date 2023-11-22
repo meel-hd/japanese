@@ -1,5 +1,5 @@
 :root {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   overflow: hidden;
@@ -26,7 +26,6 @@
 }
 
 .dark-mode .themed-shadow {
-
   box-shadow: 3px 4px 10px 10px #00000020;
 }
 
@@ -47,6 +46,7 @@ button {
   border: 0;
   cursor: pointer;
   color: var(--text);
+  font-size: .95rem;
 }
 
 img {

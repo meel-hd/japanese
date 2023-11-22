@@ -2,6 +2,14 @@
   import useLocalization from "../../hooks/locales/localisation";
   import autoTheme from "./autoTheme";
 
+  // Adapt appearance in arabic
+  const { lang } = useLocalization();
+  if (lang == "ar") {
+    const root = document.documentElement;
+    // Larger font @Default: 16px
+    root.style.fontSize = "17px";
+  }
+
   // Read preconfigured font
   const font = localStorage.getItem("font") || "Monospace";
   document.body.style.fontFamily = font;
@@ -23,7 +31,7 @@
   }
 
   // Disable right click context menu
-  document.addEventListener('contextmenu', (e) => {
-    e.preventDefault()
-  })
+  document.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+  });
 </script>
