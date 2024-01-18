@@ -4,7 +4,6 @@
   line-height: 24px;
   overflow: hidden;
   font-synthesis: none;
-  font-family: Monospace;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,6 +12,11 @@
   --primary: #6F62E7;
   --text: black;
   --bg: white;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/nunito.ttf');
 }
 
 .dark-mode {

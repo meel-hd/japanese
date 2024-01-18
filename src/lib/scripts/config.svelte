@@ -1,6 +1,7 @@
 <script lang="ts">
   import useLocalization from "../../hooks/locales/localisation";
   import autoTheme from "./autoTheme";
+  import { DEFAULT_FONT } from "../components/Settings/defaults/fonts";
 
   // Adapt appearance in arabic
   const { lang } = useLocalization();
@@ -11,7 +12,7 @@
   }
 
   // Read preconfigured font
-  const font = localStorage.getItem("font") || "Monospace";
+  const font = localStorage.getItem("font") || DEFAULT_FONT;
   document.body.style.fontFamily = font;
 
   // Theme

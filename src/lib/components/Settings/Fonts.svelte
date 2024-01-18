@@ -1,15 +1,17 @@
 <script lang="ts">
   import useLocalization from "../../../hooks/locales/localisation";
   import Close from "../Icons/Close.svelte";
+  import { DEFAULT_FONT, SUPPORTED_FONTS } from "./defaults/fonts";
 
   let opened = false;
-  let preview = localStorage.getItem("font") || "Monospace";
-  let selected = localStorage.getItem("font") || "Monospace";
+  let preview = localStorage.getItem("font") || DEFAULT_FONT;
+  let selected = localStorage.getItem("font") || DEFAULT_FONT;
 
-  function setTypeface(font) {
+  function setTypeface(font: string) {
     selected = font;
     document.body.style.fontFamily = font;
     localStorage.setItem("font", font);
+    opened = false;
   }
   const { translate } = useLocalization();
 </script>
@@ -34,38 +36,16 @@
   </div>
   {#if opened}
     <div id="select-box">
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Monospace";
-        }}
-        on:click={() => setTypeface("Monospace")}
-        id="font-select">Monospace</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Georgia";
-        }}
-        on:click={() => setTypeface("Georgia")}
-        id="font-select">Georgia</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Verdana";
-        }}
-        on:click={() => setTypeface("Verdana")}
-        id="font-select">Verdana</button
-      >
-      <!-- svelte-ignore a11y-mouse-events-have-key-events -->
-      <button
-        on:mouseover={() => {
-          preview = "Perpetua";
-        }}
-        on:click={() => setTypeface("Perpetua")}
-        id="font-select">Perpetua</button
-      >
+      {#each SUPPORTED_FONTS as font}
+        <!-- svelte-ignore a11y-mouse-events-have-key-events -->
+        <button
+          on:mouseover={() => {
+            preview = font;
+          }}
+          on:click={() => setTypeface(font)}
+          id="font-select">{font}</button
+        >
+      {/each}
     </div>
   {/if}
 </div>
