@@ -39,13 +39,13 @@
       >{translate('hiragana')}</button>
     <button id={selected == "Kata" ? "active" : ""} on:click={selectKata}
       >{translate('katakana')}</button>
-    <!-- <button id={selected == "Kanji" ? "active" : ""} on:click={selectKanji}
-      >{translate('kanji')}</button> -->
+    <button id={selected == "Kanji" ? "active" : ""} on:click={selectKanji}
+      >{translate('kanji')}</button>
 
     <button
       class="settings-btn"
       id={settingsOpened ? "active" : ""}
-      on:click={toggleSettings}> {translate('settings')} <SettingsIcon /></button
+      on:click={toggleSettings}><SettingsIcon /></button
     >
   </header>
   {#if selected == "Hira"}
@@ -62,8 +62,8 @@
   <!-- Header Keyboard shorcuts controls -->
   <Toggle toggle={selectHira} key="a" />
   <Toggle toggle={selectKata} key="s" />
-  <!-- <Toggle toggle={selectKanji} key="d" /> -->
-  <Toggle toggle={toggleSettings} key="d" />
+  <Toggle toggle={selectKanji} key="d" />
+  <Toggle toggle={toggleSettings} key="f" />
 </main>
 
 <style>
@@ -104,6 +104,6 @@
   }
   .settings-btn {
     width: auto;
-    gap: 6px;
+    aspect-ratio: 1/1;
   }
 </style>

@@ -27,14 +27,14 @@
         <div id="box">S</div>
         <p>Go to Katakana.</p>
       </div>
-      <!-- <div id="shortcut">
+      <div id="shortcut">
         <div id="box">D</div>
         <p>Go to Kanji.</p>
-      </div> -->
+      </div>
 
       <h4>Toggles</h4>
       <div id="shortcut">
-        <div id="box">D</div>
+        <div id="box">F</div>
         <p>Toggle settings.</p>
       </div>
       <div id="shortcut">
