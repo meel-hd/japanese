@@ -12,7 +12,7 @@ Learn Japanese Hiragana and Katakana. Memorize, write, pronounce, and test your 
 * Works with major desktop platforms *Linux,* *Mac,* and *Windows*.
 * and More...
 ### Rich Content
-1. **Pronounciatin**: Listen to the carefully crafted alphabet pronounciation to learn how to utter each character perfectly.
+1. **Pronunciation**: Listen to the carefully crafted alphabet pronunciation to learn how to utter each character perfectly.
 2. **Tests**: Challenge yourself and test your knowledge with trackable scoring system.
 3. **Writing**: Learn how to write all characters with detailed animations.
 <p align="center">
