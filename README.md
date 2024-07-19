@@ -22,7 +22,7 @@ Learn Japanese Hiragana and Katakana. Memorize, write, pronounce, and test your 
 ### Keyboard Accessible
 Any actions or clicks you can do with the mouse there is a shortcut for it with the keyboard.
 ## Future Plan
-Add kanji support. Duolingo is very good by the way.
+Add kanji support.
 ## License
 MIT
 
