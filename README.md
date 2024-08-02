@@ -1,4 +1,4 @@
-# LoFi Engine
+# Japanese 
 <p align="center">
     <img alt="Icon" align="center" width="100" heigth="100" src="app-icon.png" />
 </p>
