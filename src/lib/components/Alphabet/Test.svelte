@@ -213,4 +213,10 @@
   #choices button:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px) {
+    #model {
+      padding: 0;
+    }
+  }
 </style>

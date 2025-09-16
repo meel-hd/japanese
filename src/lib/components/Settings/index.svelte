@@ -49,4 +49,11 @@
   #container {
     padding-left: 30px;
   }
+
+  @media (max-width: 768px) {
+    section {
+      width: 90vw;
+      height: 80vh;
+    }
+  }
 </style>

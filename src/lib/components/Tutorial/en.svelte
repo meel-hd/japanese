@@ -270,4 +270,15 @@
     display: flex;
     justify-content: end;
   }
+
+  @media (max-width: 768px) {
+    main {
+      padding: 20px;
+      width: 80vw;
+      height: 80vh;
+    }
+    #bottom {
+      padding: 0 10px;
+    }
+  }
 </style>

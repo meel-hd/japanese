@@ -6,7 +6,7 @@
   const { translate } = useLocalization();
 </script>
 
-<div>
+<main>
   <button
     on:click={() => (opened = !opened)}
     id="top"
@@ -88,7 +88,7 @@
       </div>
     </div>
   {/if}
-</div>
+  </main>
 
 <style>
   #top {
@@ -128,5 +128,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      display: none;
+    }
   }
 </style>

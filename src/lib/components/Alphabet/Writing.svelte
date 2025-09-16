@@ -134,4 +134,15 @@
     display: flex;
     align-items: center;
   }
+
+  @media (max-width: 768px) {
+    .controls {
+      right: 5vw;
+    }
+    .info {
+      left: 15vw;
+      bottom: 10vw;
+      width: 80%;
+    }
+  }
 </style>

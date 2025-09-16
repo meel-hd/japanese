@@ -12,7 +12,7 @@
     (localStorage.getItem("selected") as "Hira" | "Kata" | "Kanji") || "Hira";
 
   let settingsOpened = localStorage.getItem("hide-tutorial") != "yes";
-  let {translate}= useLocalization();
+  let { translate } = useLocalization();
 
   function selectHira() {
     selected = "Hira";
@@ -36,11 +36,14 @@
   <Tutorial />
   <header>
     <button id={selected == "Hira" ? "active" : ""} on:click={selectHira}
-      >{translate('hiragana')}</button>
+      >{translate("hiragana")}</button
+    >
     <button id={selected == "Kata" ? "active" : ""} on:click={selectKata}
-      >{translate('katakana')}</button>
+      >{translate("katakana")}</button
+    >
     <button id={selected == "Kanji" ? "active" : ""} on:click={selectKanji}
-      >{translate('kanji')}</button>
+      >{translate("kanji")}</button
+    >
 
     <button
       class="settings-btn"
@@ -53,7 +56,7 @@
   {:else if selected == "Kata"}
     <Katakana />
   {:else if selected == "Kanji"}
-    <h1>{translate('coming-soon')}</h1>
+    <h1>{translate("coming-soon")}</h1>
   {/if}
 
   {#if settingsOpened}
@@ -105,5 +108,12 @@
   .settings-btn {
     width: auto;
     aspect-ratio: 1/1;
+  }
+
+  @media (max-width: 768px) {
+    header {
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 </style>

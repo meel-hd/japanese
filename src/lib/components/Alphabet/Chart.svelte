@@ -190,4 +190,17 @@
     align-items: center;
     margin-top: 20px;
   }
+
+  @media (max-width: 768px) {
+    #model {
+      width: 80vw;
+      height: 80vh;
+      left: -10vw;
+      top: 0;
+    }
+
+    #content {
+      gap: 10px;
+    }
+  }
 </style>
