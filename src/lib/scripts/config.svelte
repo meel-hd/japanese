@@ -5,11 +5,16 @@
 
   // Adapt appearance in arabic
   const { lang } = useLocalization();
+  const root = document.documentElement;
   if (lang == "ar") {
-    const root = document.documentElement;
     // Larger font @Default: 16px
     root.style.fontSize = "17px";
+    root.dir = "rtl";
+  } else {
+    root.style.fontSize = "";
+    root.dir = "ltr";
   }
+  root.lang = lang;
 
   // Read preconfigured font
   const font = localStorage.getItem("font") || DEFAULT_FONT;
